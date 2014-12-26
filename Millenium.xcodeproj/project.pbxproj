@@ -2419,7 +2419,7 @@
 				ORGANIZATIONNAME = Fruity;
 				TargetAttributes = {
 					6672B3A718B4AEA900B01BC3 = {
-						DevelopmentTeam = X8PMSFJF6Z;
+						DevelopmentTeam = N2AZ5MXD3Y;
 					};
 				};
 			};
@@ -2897,8 +2897,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: I 24 COMPANY LIMITED (X8PMSFJF6Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: I 24 COMPANY LIMITED (X8PMSFJF6Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
 				INFOPLIST_FILE = "Millenium/Millenium-Info.plist";
@@ -2913,7 +2913,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ea96e17c-c876-4b5b-a3ad-750a6a2631da";
+				PROVISIONING_PROFILE = "a466ddfa-e7bf-4b16-90b4-ea9e49bf4884";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Millenium/Libs\"/**";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -2924,8 +2924,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: I 24 COMPANY LIMITED (X8PMSFJF6Z)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: I 24 COMPANY LIMITED (X8PMSFJF6Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
 				INFOPLIST_FILE = "Millenium/Millenium-Info.plist";
@@ -2940,7 +2940,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ea96e17c-c876-4b5b-a3ad-750a6a2631da";
+				PROVISIONING_PROFILE = "a466ddfa-e7bf-4b16-90b4-ea9e49bf4884";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Millenium/Libs\"/**";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
