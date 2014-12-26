@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BookingHistory" representedClassName="BookingHistory" syncable="YES">
+        <attribute name="bookingHistoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="car_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealer_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="process" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="slotTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="submitedTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CarType" representedClassName="CarType" syncable="YES">
+        <attribute name="modelDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelKey" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Collection" representedClassName="Collection" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="catName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Dealer" representedClassName="Dealer" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longtitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="openingHour" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="News" representedClassName="News" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publicId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortDescriptions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoUrl" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="collectionId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Service" representedClassName="Service" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desctiptions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SOSInfo" representedClassName="SOSInfo" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sosId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vehicle" representedClassName="Vehicle" syncable="YES">
+        <attribute name="carImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="insurancePhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plateNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="province" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusCar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vehicleId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vehicleModel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vinNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VIN" representedClassName="VIN" syncable="YES">
+        <attribute name="delFlag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endVIN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startVIN" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BookingHistory" positionX="0" positionY="0" width="128" height="195"/>
+        <element name="CarType" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="Collection" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Dealer" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="News" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="Product" positionX="0" positionY="0" width="128" height="195"/>
+        <element name="Service" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="SOSInfo" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Vehicle" positionX="0" positionY="0" width="128" height="163"/>
+        <element name="VIN" positionX="0" positionY="0" width="128" height="120"/>
+    </elements>
+</model>

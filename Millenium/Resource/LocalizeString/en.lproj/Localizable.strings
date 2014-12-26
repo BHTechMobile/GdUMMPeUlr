@@ -1,0 +1,140 @@
+/* 
+  Localizable.strings
+  Millenium
+
+  Created by duc le on 3/3/14.
+  Copyright (c) 2014 Fruity. All rights reserved.
+*/
+"Yesterday you sold %@ apps" = "Yesterday you sold %@ apps";
+
+"You like?" = "You like xxx ?";
+
+"kLang_Langugae"    = "Language";
+
+"kLang_BMWCarService" = "BMW Car Service";
+"kLang_News"    =   "News";
+"kLang_Services"    =   "Services";
+"kLang_Service"     =   "Service";
+"kLang_Booking"     =   "Booking";
+"kLang_Dealers"     =   "Dealers";
+"kLang_Collection"  =   "Collections";
+"kLang_SOS"     =       "SOS";
+"kLang_Emegency_Serivce" = "emergency services";
+
+"kLang_NewsDetail"  =   "News Detail";
+"kLang_ProductDetail"   =   "Product Detail";
+"kLang_Back"        =   "  Back";
+
+"kLang_EditProfile" =   "Edit Profile";
+"kLang_BookingHistory"      =   "Booking History";
+"kLang_SelectVehicle"       =   "Select Vehicle";
+"kLang_SelectBranch"        =   "Select Branch";
+"kLang_SelectDateTime"      =   "Select Date/Time";
+"kLang_SelectType"          =   "Select Type";
+"kLang_ServiceNote"         =   "Service Note";
+
+"kLang_YouHavetoRegister"   =   "Please register your profile before booking services, would you like to register now? ";
+"kLang_YouhaveChoose_Vehicle"   =   "Please select your desired vehicle.";
+"kLang_YouhaveChoose_Service"   =   "Please select your desired service. ";
+"kLang_YouhaveChoose_Branch"    =   "Please select your desired branch. ";
+"kLang_YouhaveChoose_Date"    =   "Please select your desired date. ";
+"kLang_YouhaveChoose_Date_Selected"    =   " Oops, your dates are before today, can you please reselect your desired booking date? ";
+"kLang_YouhaveChoose_Time"    =   "Please select your desired time.";
+"kLang_YouhaveChoose_TimeServiceFrom8To17"  =   "Our services are only avaiiable between 08:00 to 17:00, can you please re-select? ";
+"kLang_BookingService"          =   "Booking Service";
+"kLang_BookService"             =   "Book";
+"kLang_RequestThisBooking"  =   "Submit request";
+"kLang_ConfirmThisBooking"  =   "Submit this booking";
+"kLang_Vehicle"             =   "Vehicle";
+"kLang_Branch"              =   "Branch";
+"kLang_Type"                =   "Type";
+"kLang_Date"                =   "Date";
+"kLang_Note"                =   "Note";
+"kLang_Status"              =   "Status";
+
+"kLang_Plate"               =   "Plate:";
+"kLang_Model"               =   "Model:";
+
+
+"kLang_CallSOS"             =   "Call SOS Service";
+"kLang_AreYouSure"          =   "Please confirm your selection. ";
+
+"kLang_OpenInAppleMap"           =   "Show navigation in Apple Map";
+"kLang_OpenInGoogleMap"     =   "Show navigation in Google Map.";
+"kLang_DirectFromCur"       =   "Directions From Current Location";
+
+"kLang_YES"                 =   "YES";
+"kLang_NO"                  =   "NO";
+"kLang_OK"                  =   "OK";
+"kLang_Cancel"              =   "Cancel";
+"kLang_Done"                =   "Done";
+"KLang_Error"               =   "Error";
+"kLang_BookingSent"         =   "Your booking is now confirmed. ";
+"kLang_addEventSuccess"         =   "We have added your booking to your personal calendar as well. ";
+"kLang_PleaseWaitConfirm"   =   "Please wait for confirmation from our staff. ";
+"kLang_YouHaveNoVehicle"    =   "Your profie doesn't have any vehicles yet, please add your vehicle. ";
+"kLang_SaveSuccessfully"    =   "Your data has been saved. ";
+
+
+"kLang_EditProfile"         =   "Edit Profile";
+"kLang_Name"                =   "Name";
+"kLang_Email"               =   "Email";
+"kLang_Tel"                 =   "Tel.";
+
+"kLang_DefaultVehicle"      =   "Default Vehicle";
+"kLang_FavoriteBranch"      =   "Favorite Branch";
+"kLang_Save"                =   "Save";
+"kLang_AddVehicle"          =   "Add Vehicle";
+"kLang_ConnectToFacebook"   =   "Connect to Facebook";
+"kLang_ConnectToTwitter"    =   "Connect to Twitter";
+"kLang_ConnectedFB"         =   "Facebook Connected";
+"kLang_ConnectedTW"         =   "Twitter Connected";
+
+"kLang_PleaseInputYourVIN"  =   "Please input your VIN";
+"kLang_ScanQRCode"          =   "Scan QR code";
+"kLang_CheckVIN"            =   "Check VIN";
+"kLang_VehicleModel"        =   "Vehicle Model";
+"kLang_MyVehicle"           =   "My Vehicle(s)";
+"kLang_Name"                =   "Name";
+"kLang_LicensePlate"        =   "License Plate";
+"kLang_RegisterVehicle"     =   "Register Vehicle";
+
+"kLang_PleaseInputVIN"      =   "Please input the last 7 digits of your car's VIN No. ";
+
+"kLang_DealerDetail"        =   "Dealer Detail";
+"kLang_Address"             =   "Address";
+"kLang_OpeningHours"        =   "Opening Hours";
+
+"kLang_Call"                =   "    Call";
+"kLang_Next"                =   "Next";
+"kLang_Previous"            =   "Previous";
+"kLang_Edit"                =   "Edit";
+"kLang_NoProductFound"      =   "Oops, our system doesn't seem to find any products, please recheck or try again. ";
+"KLang_BookOnline"          = "Book Online";
+"KLang_CallService"         ="Call Service";
+
+"kLang_ChangeEvent"                =   "Do you want to make changes to this event?";
+"kLang_location"                =   "Your location services is now disabled.";
+"kLang_bookingHasUpdated"            =   "Your booking has been altered, please check your updated booking.";
+"kLang_ConnectServer"                =   "Oops, your phone doesn't seem to be connected to the Internet.";
+"kLang_DoYouWantAddCalendar"      =   "Do you want me to add this to your personal calendar? ";
+
+
+"kLang_EditBookingFailure"        =   "Sorry, we are unable to change your booking, please recheck or try again later. ";
+"kLang_CanNotRemoveBooking"             =   "Sorry, we are unable to remove this booking, please recheck or try again later. ";
+"kLang_BookingFailure"        =   "Your booking has failed, please try again. ";
+
+"kLang_EmailAccountSettings"                =   "There are no email configured in your profile, please add an email address in your settings.  ";
+"kLang_NoEmailAccount"                =   "There are no email configured in your profile, please add an email address.";
+"kLang_SureToCall"            =   "Do you want to call now? ";
+"kLang_CanNotUpdateProfile"                =   "Sorry, we are unable to edit your profile, please recheck or try again later. ";
+"kLang_Savedlocalsuccessfully"      =   "Your information has been saved locally. ";
+"KLang_ServerSuccessfully"          = "Your information has been saved to the server. ";
+"KLang_UseNewEmail"         ="Please note that if you change to an new email address, all data will be replaced, are you sure you want to continue? ";
+
+"kLang_CanNotMakeCall"                =   "Oops, your device doesn't support making a phone call right now. ";
+"kLang_CallEmergencyService"                =   "Do you want to call Emergency Service now? ";
+"kLang_VINNumberInvalid"            =   "Sorry, your VIN number is invalid, please recheck your input value. ";
+"kLang_AddVehicleError."                =   "Sorry, we are unable to add your vehicle, please recheck or try again later. ";
+"kLang_InputAllField"      =   "Oops, have you forgotten to enter some of the required fields? Please recheck or try again later.  ";
+

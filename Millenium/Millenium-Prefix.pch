@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'Millenium' target in the 'Millenium' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "CoreData+MagicalRecord.h"
+    #import <CoreData/CoreData.h>
+    #import "Util.h"
+    #import "Logging.h"
+    #import "Macros.h"
+    #import "ModelManager.h"
+    #import "BaseViewController.h"
+    #import "LocalizationSystem.h"
+    #import "CoreData+MagicalRecord.h"
+    #import <CoreData/CoreData.h>
+    #import "TestFlight.h"
+    #define MR_SHORTHAND
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#endif

@@ -1,0 +1,138 @@
+/* 
+  Localizable.strings
+  Millenium
+
+  Created by duc le on 3/3/14.
+  Copyright (c) 2014 Fruity. All rights reserved.
+*/
+"Yesterday you sold %@ apps" = "Yesterday you sold %@ apps";
+
+"You like?" = "You like Thailand?";
+
+"kLang_Langugae" = "ภาษา";
+
+"kLang_BMWCarService" = "BMW บริการ รถ";
+"kLang_News" = "ข่าว" ;
+"kLang_Services" = "บริการ" ;
+"kLang_Service"     =  "บริการ" ;
+"kLang_Booking"     =   "การจอง";
+"kLang_Dealers" = "ดีลเลอร์";
+"kLang_Collection" = "สินค้า";
+"kLang_SOS" = "SOS";
+"kLang_Emegency_Serivce" = "บริการฉุกเฉิน";
+
+"kLang_NewsDetail" = "รายละเอียดข่าว";
+"kLang_ProductDetail"   =   "รายละเอียดสินค้า";
+"kLang_Back" = " ย้อนกลับ" ;
+
+"kLang_EditProfile" = "แก้ไขข้อมูลส่วนตัว";
+"kLang_BookingHistory" = "ประวัติการจอง";
+"kLang_SelectVehicle" = "เลือกรถ";
+"kLang_SelectBranch" = "เลือก สาขา";
+"kLang_SelectDateTime" = "เลือก วันที่ / เวลา" ;
+"kLang_SelectType" = "เลือกประเภท";
+"kLang_ServiceNote" = "หมายเหตุ บริการ";
+
+"kLang_YouHavetoRegister"   =   "กรุณาลงทะเบียนโปรไฟล์ก่อนจองรับบริการ คุณต้องการจะลงทะเบียนตอนนี้หรือไม่?";
+"kLang_YouhaveChoose_Vehicle" = "กรุณาเลือกรถที่ท่านต้องการ";
+"kLang_YouhaveChoose_Service" = "กรุณาเลือกบริการที่ท่านต้องการ";
+"kLang_YouhaveChoose_Branch" = "กรุณาเลือกสาขาที่ท่านต้องการ";
+
+"kLang_YouhaveChoose_Date"    =   "กรุณาเลือกวันที่ที่ท่านต้องการ";
+"kLang_YouhaveChoose_Date_Selected"    =   "ขอโทษคะ วันที่ที่คุณเลือกอยู่ก่อนหน้าวันนี้ กรุณาเลือกวันที่ที่ท่านต้องการใหม่";
+"kLang_YouhaveChoose_Time"    =   "กรุณาเลือกเวลาที่ท่านต้องการ";
+
+"kLang_YouhaveChoose_TimeServiceFrom8To17"  = "การให้บริการของเราอยู่ระหว่างเวลา 08:00 ถึง17:00 กรุณาเลือกเวลาที่ท่านต้องการใหม่";
+"kLang_BookingService" = "บริการจอง";
+"kLang_BookService" = "บุ๊ค";
+"kLang_RequestThisBooking" = "ส่งคำขอ";
+"kLang_ConfirmThisBooking" = "ส่งการจองนี้";
+"kLang_Vehicle" = "รถยนต์ของฉัน";
+"kLang_Branch" = "สาขา";
+"kLang_Type" = "ประเภท";
+"kLang_Date" = "วันที่";
+"kLang_Note" = "หมายเหตุ";
+"kLang_Status" = "สถานะ" ;
+
+"kLang_Plate" = "ทะเบียน";
+"kLang_Model" = "รุ่น";
+
+"kLang_OpenInAppleMap" = "แสดงการนำทางบน Apple Map";
+"kLang_OpenInGoogleMap" = "แสดงการนำทางบน Google Map";
+"kLang_DirectFromCur" = "ทิศทางจากที่อยู่ปัจจุบัน";
+
+"kLang_CallSOS"             =   "โทร SOS บริการ";
+"kLang_AreYouSure"          =   "กรุณายืนยันการเลือกของท่าน";
+
+"kLang_YES" = "ใช่";
+"kLang_NO" = "ไม่" ;
+"kLang_OK" = "ตกลง";
+"kLang_Cancel" = "ยกเลิก" ;
+"kLang_Done" = "เสร็จ";
+"KLang_Error"  =   "ความผิด";
+"kLang_BookingSent" = "การจองของคุณได้รับการยืนยันแล้วคะ";
+"kLang_addEventSuccess" = "เราได้ทำการเพิ่มการจองของท่านในปฏิทินส่วนตัวของท่านแล้วด้วย";
+"kLang_PleaseWaitConfirm" = "กรุณารอการยืนยันจากพนักงานของเรา";
+"kLang_YouHaveNoVehicle" = "โปรไหล์ของคุณยังไม่มีรถ กรุณาเพิ่มรถของท่าน";
+"kLang_SaveSuccessfully" = "ข้อมูลของคุณถูกบันทึกแล้ว";
+
+"kLang_EditProfile" = "แก้ไขข้อมูลส่วนตัว";
+"kLang_Name" = "ชื่อ";
+"kLang_Email" = "อีเมล" ;
+"kLang_Tel" = " โทร.";
+
+"kLang_DefaultVehicle" = "เริ่มต้น ยานพาหนะ";
+"kLang_FavoriteBranch" = "โปรด สาขา";
+"kLang_Save" = "บันทึก";
+"kLang_AddVehicle" = "เพิ่ม ยานพาหนะ";
+"kLang_ConnectToFacebook" = "เชื่อมต่อ ไปที่ Facebook";
+"kLang_ConnectToTwitter" = "การเชื่อมต่อกับ Twitter";
+"kLang_ConnectedFB" = "Facebook เชื่อมต่อ";
+"kLang_ConnectedTW" = "Twitter เชื่อมต่อ";
+
+"kLang_PleaseInputYourVIN" = "กรุณาใส่ VIN ของคุณ";
+"kLang_ScanQRCode" = "รหัส สแกน QR";
+"kLang_CheckVIN" = "ตรวจสอบ VIN";
+"kLang_VehicleModel" = "รุ่นรถ";
+"kLang_MyVehicle" = "รถยนต์ของฉัน";
+"kLang_Name" = "ชื่อ";
+"kLang_LicensePlate" = "ป้ายทะเบียน";
+"kLang_RegisterVehicle" = "ลงทะเบียน ยานพาหนะ";
+
+"kLang_PleaseInputVIN" = "กรุณากรอกเลข VIN 7 หลักสุดท้ายของรถของท่าน";
+
+"kLang_DealerDetail" = "รายละเอียด ดีลเลอร์";
+"kLang_Address" = "ที่อยู่";
+"kLang_OpeningHours" = "เวลาเปิด";
+
+"kLang_Call" = "     เรียก";
+"kLang_Next" = "ถัดไป";
+"kLang_Previous" = "ย้อนกลับ";
+"kLang_Edit" = "แก้ไข";
+"kLang_NoProductFound" = "ขอโทษคะ ระบบของเราไม่สามารถหาผลิตภัณฑ์ใดๆได้ กรุณาตรวจสอบหรือลองอีกครั้ง";
+"KLang_BookOnline"          = "จองผ่านระบบ";
+"KLang_CallService"         ="จองทางโทรศัพท์";
+
+"kLang_ChangeEvent"                =   "ท่านต้องการที่จะทำการแก้ไขรายการนี้หรือไม่?";
+"kLang_location"                =   "การบริการสถานที่ของอุปกรณ์ท่านถูกปิดแล้ว";
+"kLang_bookingHasUpdated"            =   "การจองของท่านถูกแก้ไข กรุณาตรวจสอบการจองที่ถูกปรับปรุงแล้ว";
+"kLang_ConnectServer"                =   "ขอโทษคะ ดูเหมือนโทรศัพท์ของท่านไม่ได้เชื่อมต่อกับอินเตอร์เนท";
+"kLang_DoYouWantAddCalendar"      =   "ท่านต้องการที่จะเพิ่มไปในปฏิทินส่วนตัวของท่านหรือไม่?";
+
+"kLang_EditBookingFailure"        =   "ขอโทษคะ เราไม่สามารถแก้ไขการจองของท่าน กรุณาตรวจสอบอีกครับหรือลองอีกครั้งภายหลัง";
+"kLang_CanNotRemoveBooking"             =   "ขอโทษคะ เราไม่สามารถลบการจองของท่าน กรุณาตรวจสอบอีกครับหรือลองอีกครั้งภายหลัง";
+"kLang_BookingFailure"        =   "การจองของท่านล้มเหลว กรุณาลองใหม่อีกครั้ง";
+
+"kLang_EmailAccountSettings"                =   "ไม่มีอีเมล์กำหนดในโปรไฟล์ของท่าน กรุณาเพิ่มที่อยู่อีเมล์  ";
+"kLang_NoEmailAccount"                =   "ไม่มีอีเมล์กำหนดในโปรไฟล์ของท่าน กรุณาเพิ่มที่อยู่อีเมล์";
+"kLang_SureToCall"            =   "ท่านต้องการที่จะโทรตอนนี้หรือใหม่? ";
+"kLang_CanNotUpdateProfile"                =   "ขอโทษคะ เราไม่สามารถแกไขโปรไฟล์ของท่าน กรุณาตรวจสอบอีกครับหรือลองอีกครั้งภายหลัง";
+"kLang_Savedlocalsuccessfully"      =   "ข้อมูลของท่านถูกบันทึกในอุปกรณ์แล้วคะ";
+"KLang_ServerSuccessfully"          = "ข้อมูลของท่านถูกบันทึกในเซิร์ฟเวอร์แล้วคะ";
+"KLang_UseNewEmail"         ="หากท่านแก้ไขที่อยู่อีเมล์ ข้อมูลทั้งหมดจะถูกแทนที่ ท่านต้องการที่จะทำต่อหรือไม่?";
+
+"kLang_CanNotMakeCall"                =   "ขอโทษคะ อุปกรณ์ของท่านไม่สนับสนุนการโทรศัพท์ตอนนี้คะ";
+"kLang_CallEmergencyService"                =   "ท่านต้องการที่จะโทรบริการฉุกเฉินเลยหรือไม่?";
+"kLang_VINNumberInvalid"            =   "ขอโทษคะ เลข VIN ของท่านไม่ถูกต้อง กรุณาตรวจสอบค่าของท่านกรอก";
+"kLang_AddVehicleError."                =   "ขอโทษคะ เราไม่สามารถเพิ่มรถของท่านได้ กรุณาตรวจสอบอีกครับหรือลองอีกครั้งภายหลัง";
+"kLang_InputAllField"      =   "ขอโทษคะ ท่านลืมป้อนข้อมูลภาคบังคับบ้างช่องหรือเปล่าคะ? กรุณาตรวจสอบอีกครับหรือลองอีกครั้งภายหลัง  ";
