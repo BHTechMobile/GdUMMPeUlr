@@ -146,6 +146,7 @@
                 <outlet property="type" destination="5jf-jQ-adc" id="0nu-gH-ipC"/>
                 <outlet property="vehicleLbl" destination="wGW-MP-zas" id="a2C-H8-QRA"/>
             </connections>
+            <point key="canvasLocation" x="142" y="55.5"/>
         </tableViewCell>
     </objects>
     <resources>

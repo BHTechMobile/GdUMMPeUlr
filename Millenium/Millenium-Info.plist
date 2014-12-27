@@ -44,6 +44,11 @@
 		<string>BMW Thailand Bold.ttf</string>
 		<string>BMW Thailand Light.ttf</string>
 		<string>BMW Thailand Regular.ttf</string>
+		<string>MiniBd.ttf</string>
+		<string>MiniHd.ttf</string>
+		<string>MiniHdBd.ttf</string>
+		<string>MiniHdIcon.ttf</string>
+		<string>MiniRg.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
