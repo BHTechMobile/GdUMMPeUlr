@@ -1,10 +1,10 @@
-/* 
-  Localizable.strings
-  Millenium
-
-  Created by duc le on 3/3/14.
-  Copyright (c) 2014 Fruity. All rights reserved.
-*/
+/*
+ Localizable.strings
+ Millenium
+ 
+ Created by duc le on 3/3/14.
+ Copyright (c) 2014 Fruity. All rights reserved.
+ */
 "Yesterday you sold %@ apps" = "Yesterday you sold %@ apps";
 
 "You like?" = "You like xxx ?";
@@ -14,18 +14,21 @@
 "kLang_BMWCarService" = "BMW Car Service";
 "kLang_News"    =   "News";
 "kLang_Services"    =   "Services";
-"kLang_Service"     =   "Service";
+"kLang_Service"     =   "MINI SERVICE.";
 "kLang_Booking"     =   "Booking";
 "kLang_Dealers"     =   "Dealers";
+"kLang_Dealers_Title"     =   "MINI DEALERS.";
 "kLang_Collection"  =   "Collections";
+"kLang_Collection_Title"  =   "COLLECTIONS.";
 "kLang_SOS"     =       "SOS";
-"kLang_Emegency_Serivce" = "emergency services";
+"kLang_Emegency_Serivce" = "emergency.";
 
-"kLang_NewsDetail"  =   "News Detail";
+"kLang_NewsDetail"  =   "MINI NEWS.";
 "kLang_ProductDetail"   =   "Product Detail";
-"kLang_Back"        =   "  Back";
+"kLang_Back"        =   "  BACK";
 
-"kLang_EditProfile" =   "Edit Profile";
+"kLang_EditProfile" =   "EDIT PROFILE";
+"kLang_EditProfile_Title" =   "EDIT PROFILE.";
 "kLang_BookingHistory"      =   "Booking History";
 "kLang_SelectVehicle"       =   "Select Vehicle";
 "kLang_SelectBranch"        =   "Select Branch";
@@ -76,7 +79,7 @@
 "kLang_SaveSuccessfully"    =   "Your data has been saved. ";
 
 
-"kLang_EditProfile"         =   "Edit Profile";
+"kLang_EditProfile"         =   "EDIT PROFILE";
 "kLang_Name"                =   "Name";
 "kLang_Email"               =   "Email";
 "kLang_Tel"                 =   "Tel.";
@@ -84,7 +87,8 @@
 "kLang_DefaultVehicle"      =   "Default Vehicle";
 "kLang_FavoriteBranch"      =   "Favorite Branch";
 "kLang_Save"                =   "Save";
-"kLang_AddVehicle"          =   "Add Vehicle";
+"kLang_AddVehicle"          =   "  ADD VEHICLE";
+"kLang_AddVehicle_Title"    =   "ADD VEHICLE.";
 "kLang_ConnectToFacebook"   =   "Connect to Facebook";
 "kLang_ConnectToTwitter"    =   "Connect to Twitter";
 "kLang_ConnectedFB"         =   "Facebook Connected";
@@ -92,26 +96,26 @@
 
 "kLang_PleaseInputYourVIN"  =   "Please input your VIN";
 "kLang_ScanQRCode"          =   "Scan QR code";
-"kLang_CheckVIN"            =   "Check VIN";
+"kLang_CheckVIN"            =   "CHECK VIN";
 "kLang_VehicleModel"        =   "Vehicle Model";
 "kLang_MyVehicle"           =   "My Vehicle(s)";
 "kLang_Name"                =   "Name";
 "kLang_LicensePlate"        =   "License Plate";
-"kLang_RegisterVehicle"     =   "Register Vehicle";
+"kLang_RegisterVehicle"     =   "REGISTER";
 
 "kLang_PleaseInputVIN"      =   "Please input the last 7 digits of your car's VIN No. ";
 
-"kLang_DealerDetail"        =   "Dealer Detail";
+"kLang_DealerDetail"        =   "Dealer Detail.";
 "kLang_Address"             =   "Address";
 "kLang_OpeningHours"        =   "Opening Hours";
 
-"kLang_Call"                =   "    Call";
+"kLang_Call"                =   "    CALL";
 "kLang_Next"                =   "Next";
 "kLang_Previous"            =   "Previous";
 "kLang_Edit"                =   "Edit";
 "kLang_NoProductFound"      =   "Oops, our system doesn't seem to find any products, please recheck or try again. ";
-"KLang_BookOnline"          = "Book Online";
-"KLang_CallService"         ="Call Service";
+"KLang_BookOnline"          = "BOOK ONLINE";
+"KLang_CallService"         = "CALL SERVICE";
 
 "kLang_ChangeEvent"                =   "Do you want to make changes to this event?";
 "kLang_location"                =   "Your location services is now disabled.";

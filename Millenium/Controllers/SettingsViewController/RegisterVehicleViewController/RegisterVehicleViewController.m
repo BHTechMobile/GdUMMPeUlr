@@ -72,7 +72,7 @@
 -(void)changeLang
 {
     
-    _titleLbl.text = [SetupLanguage(kLang_AddVehicle) uppercaseString];
+    _titleLbl.text = [SetupLanguage(kLang_AddVehicle_Title) uppercaseString];
     CGRect rect = _titleLbl.frame;
     rect.size.width = 187.;_titleLbl.frame = rect;
     [_titleLbl sizeToFit];

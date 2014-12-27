@@ -372,7 +372,9 @@
     NSArray *listNavigationController = @[newsNaviVC,servicesNaviVC,dealderNaviVC,collectionsNaviVC,sosNaviVC];
     for(UINavigationController* naviVC in listNavigationController)
         naviVC.navigationBarHidden = YES;
+    
     _tabbarViewController.viewControllers = listNavigationController;
+    _tabbarViewController.tabBar.selectedImageTintColor = [UIColor redColor];
     [_tabbarViewController setSelectedIndex:1];
     
     ((AppDelegate*)[[UIApplication sharedApplication] delegate]).tabbarViewController = _tabbarViewController;

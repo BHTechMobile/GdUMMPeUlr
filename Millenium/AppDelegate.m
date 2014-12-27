@@ -23,46 +23,49 @@
 #import <EventKit/EventKit.h>
 #import "ModelManager.h"
 
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define IOS_VERSION_8_0 @"8.0"
+
 @implementation AppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [MagicalRecordHelpers setupCoreDataStackWithStoreNamed:@"BMWCarService.sqlite"];
-#ifdef __IPHONE_8_0
-    //Right, that is the point
-    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:(UIRemoteNotificationTypeBadge
-                                                                                         |UIRemoteNotificationTypeSound
-                                                                                         |UIRemoteNotificationTypeAlert) categories:nil];
-    [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
-#else
-    //register to receive notifications
-    UIRemoteNotificationType myTypes = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
-    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:myTypes];
-#endif
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(IOS_VERSION_8_0)) {
+        //Right, that is the point
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:(UIRemoteNotificationTypeBadge
+                                                                                             |UIRemoteNotificationTypeSound
+                                                                                             |UIRemoteNotificationTypeAlert) categories:nil];
+        [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+    }else {
+        //register to receive notifications
+        UIRemoteNotificationType myTypes = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
+        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:myTypes];
+    }
     if (launchOptions != nil)
-	{
+    {
         NSDictionary *dictionary = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
-            if (dictionary != nil)
-                {
-                    NSDictionary *apsDict  = [launchOptions valueForKey:@"aps"];
-                    NSDictionary *alertDict  = [apsDict valueForKey:@"alert"];
-                    if (alertDict) {
-                        NSString *mess  = [alertDict valueForKey:@"message"];
-                        NSLog(@"mess: %@", mess);
-                    }
-                  
+        if (dictionary != nil)
+        {
+            NSDictionary *apsDict  = [launchOptions valueForKey:@"aps"];
+            NSDictionary *alertDict  = [apsDict valueForKey:@"alert"];
+            if (alertDict) {
+                NSString *mess  = [alertDict valueForKey:@"message"];
+                NSLog(@"mess: %@", mess);
+            }
+            
             if(dictionary[@"aps"])
             {
                 NSDictionary* data =[Util convertJSONToObject:[Validator getSafeString:[dictionary valueForKey:@"data"]]];
                 if (data){
                     [self updateBookingHistoryWithDic:dictionary[@"aps"] needUpdateScree:NO];
                 }
-                }
-		}
-	}
+            }
+        }
+    }
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-
+    
     if(![Util valueForKey:DefaultLang])
     {
         LocalizationSetLanguage(@"en_US");
@@ -73,7 +76,7 @@
     [self createTabbar];
     [self initCoreLocation];
     [self.window makeKeyAndVisible];
-
+    
     return YES;
 }
 
@@ -90,7 +93,7 @@
         [[UIToolbar appearance] setTintColor:[UIColor lightGrayColor]];
         [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
     }
-
+    
     SplashViewController* splashVC = [[SplashViewController alloc] initWithNibName:@"SplashViewController" bundle:Nil];
     self.naviVC = [[MyNavigationController alloc] initWithRootViewController:splashVC];
     _naviVC.navigationBarHidden = YES;
@@ -129,8 +132,8 @@
 }
 
 - (NSUInteger) application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-        return UIInterfaceOrientationMaskAll;
-
+    return UIInterfaceOrientationMaskAll;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -141,7 +144,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
@@ -197,7 +200,7 @@
                        stringByReplacingOccurrencesOfString:@" "
                        withString:@""];
     
-	DebugLog(@">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>My token is: %@", token);
+    DebugLog(@">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>My token is: %@", token);
     NSLog(@"token : %@",token);
     [application openURL:[NSURL URLWithString:token]];
     [Util setValue:token forKey:MyToken];
@@ -205,13 +208,13 @@
 
 - (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
 {
-	DebugLog(@"Failed to get token, error: %@", error);
+    DebugLog(@"Failed to get token, error: %@", error);
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
     
     NSLog(@" dic of notification ZZZZZZZZZZZZZZ %@", userInfo);
-
+    
     if ([[UIApplication sharedApplication] applicationState] != UIApplicationStateActive)
     {
         DebugLog(@"PUSH NOTIFICATION IN BACK GROUND");
@@ -327,20 +330,20 @@
                     [[NSNotificationCenter defaultCenter] postNotificationName:kNotifi_UpdateBookingHistory object:nil];
                 }
             }
-
+            
         }
         else{
-//            NSDictionary* alert =[Util convertJSONToObject:[Validator getSafeString:[dic valueForKey:@"alert"]]];
-//                NSString* description = [alert  objectForKey:@"message"];
-//                [[UIApplication sharedApplication] cancelAllLocalNotifications];
-//                
-//                UILocalNotification *localNotification = [[UILocalNotification alloc] init];
-//                localNotification.alertBody=@"";
-//                localNotification.soundName=UILocalNotificationDefaultSoundName;
-//                [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
+            //            NSDictionary* alert =[Util convertJSONToObject:[Validator getSafeString:[dic valueForKey:@"alert"]]];
+            //                NSString* description = [alert  objectForKey:@"message"];
+            //                [[UIApplication sharedApplication] cancelAllLocalNotifications];
+            //
+            //                UILocalNotification *localNotification = [[UILocalNotification alloc] init];
+            //                localNotification.alertBody=@"";
+            //                localNotification.soundName=UILocalNotificationDefaultSoundName;
+            //                [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
             
-           }
-    
+        }
+        
         
     }
     /**
@@ -365,19 +368,19 @@
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         self.locationManager.distanceFilter = kCLHeadingFilterNone;
         gCurrentLatitude = gCurrentLongitude = 0;
-//        self.locationManager.purpose = @"To calculate the distance to dealer";
+        //        self.locationManager.purpose = @"To calculate the distance to dealer";
         self.locationManager.delegate = self;
         [self.locationManager startUpdatingLocation];
     }
 }
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-
+    
     if (alertView.tag==963) {
-         NSString *bookId= [Util valueForKey:@"book_id"];
+        NSString *bookId= [Util valueForKey:@"book_id"];
         if (buttonIndex==0) {
             NSLog(@"edit");
             BookingHistory* bookingHis =[BookingHistory findFirstByAttribute:@"bookingHistoryId" withValue:bookId];
-
+            
             if (bookingHis) {
                 NSString* eventIden = [Validator getSafeString:[Util valueForKey:bookingHis.bookingHistoryId]];
                 if (eventIden) {
@@ -394,19 +397,19 @@
                     
                     NSString *topNavigation = [self.naviVC.visibleViewController description];
                     if ([topNavigation rangeOfString:[BookingServiceViewController description]].location == NSNotFound){
-                    
+                        
                         BookingServiceViewController *vc=[[BookingServiceViewController alloc]initWithNibName:@"BookingServiceViewController" bundle:nil];
                         vc.isEditBookingHistory = YES;
                         vc.bookingHistoryToEdit = bookingHis;
                         NSLog(@"booking hist:%@",bookingHis.bookingHistoryId);
                         [self.naviVC pushViewController:vc animated:YES];
                         [Util setObject:bookingHis.bookingHistoryId forKey:@"bookingHisId"];
-                    
+                        
                     }
-                   
+                    
                 }
-          
-                      }
+                
+            }
             
         }
         else{
@@ -431,8 +434,8 @@
         }
         
     }
-
-
+    
+    
 }
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
