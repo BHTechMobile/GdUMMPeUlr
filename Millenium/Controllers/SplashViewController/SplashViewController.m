@@ -365,7 +365,7 @@
                                                           nil] forState:UIControlStateNormal];
     MSSlideNavigationController* sosNaviVC = [[MSSlideNavigationController alloc] initWithRootViewController:sosViewController];
     self.tabbarViewController = [[MyTabbarController alloc] init];
-    [[UITabBar appearance] setBarTintColor:[UIColor blackColor]];
+    [self.tabbarViewController.tabBar setBackgroundImage:[UIImage imageNamed:@"bg_header_gray.png"]];
     
     NSArray *listNavigationController = @[newsNaviVC,servicesNaviVC,dealderNaviVC,collectionsNaviVC,sosNaviVC];
     for(UINavigationController* naviVC in listNavigationController)
