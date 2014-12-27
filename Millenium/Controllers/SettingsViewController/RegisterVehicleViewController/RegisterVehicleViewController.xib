@@ -58,7 +58,7 @@
                                     <rect key="frame" x="170" y="51" width="138" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                    <state key="normal" title="Check VIN" backgroundImage="bg_btn_gray.png">
+                                    <state key="normal" title="CHECK VIN" backgroundImage="bg_btn_gray.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
@@ -221,7 +221,7 @@
                             <rect key="frame" x="185" y="200" width="123" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                            <state key="normal" title="Register Vehicle" backgroundImage="buttonAddVeh.png">
+                            <state key="normal" title="REGISTER" backgroundImage="bg_btn_gray.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -262,7 +262,6 @@
         <image name="arrow.png" width="16" height="15"/>
         <image name="bg_btn_gray.png" width="316" height="44"/>
         <image name="bg_textfield.png" width="412" height="54"/>
-        <image name="buttonAddVeh.png" width="223" height="50"/>
         <image name="buttonBack.png" width="112" height="26"/>
         <image name="img_header.png" width="94" height="48"/>
         <image name="info-25.png" width="28" height="28"/>

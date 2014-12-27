@@ -142,7 +142,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                             <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                            <state key="normal" title="Add vehicle" backgroundImage="buttonAddVeh.png">
+                            <state key="normal" title="  ADD VEHICLE" image="arrow_ngc.png" backgroundImage="buttonAddVeh.png">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -154,7 +154,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                             <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                            <state key="normal" title="Save" backgroundImage="buttonAddVeh">
+                            <state key="normal" title="Save" image="arrow_ngc.png" backgroundImage="buttonAddVeh">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -305,6 +305,7 @@
     </objects>
     <resources>
         <image name="arrow.png" width="16" height="15"/>
+        <image name="arrow_ngc.png" width="16" height="15"/>
         <image name="bg_btn_gray.png" width="316" height="44"/>
         <image name="bg_selectbox_next.png" width="365" height="64"/>
         <image name="bg_textfield.png" width="412" height="54"/>

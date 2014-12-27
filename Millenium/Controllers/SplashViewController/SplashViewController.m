@@ -55,6 +55,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _tapToStartButton.font = [Util customBoldFontWithSize:24];
 //    if (gArrAllLogo.count==0) {
 //        [imgSplash setImage:[UIImage imageNamed:@"Default@2x.png"]];
 //    }
