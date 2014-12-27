@@ -15,6 +15,7 @@
 #import <Social/Social.h>
 #import "BaseViewController.h"
 #import "RegisterVehicleViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface SettingsViewController ()<UIAlertViewDelegate>
 {
@@ -45,6 +46,7 @@
 {
     [super viewDidLoad];
     [self setUpFont];
+    _languageSegment.layer.cornerRadius = 5;
     //self.title = @"Settings";
     // Do any additional setup after loading the view from its nib.
     self.navigationController.navigationBarHidden = YES;
