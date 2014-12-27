@@ -63,16 +63,22 @@
                     </button>
                 </subviews>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="backBtn" destination="EHS-sT-g9y" id="yJj-7t-pBg"/>
             </connections>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="arrow.png" width="14" height="16"/>
+        <image name="arrow.png" width="16" height="15"/>
         <image name="buttonBack.png" width="112" height="26"/>
         <image name="facebook.png" width="25" height="25"/>
         <image name="mail.png" width="128" height="128"/>
         <image name="twitter.png" width="25" height="25"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
