@@ -40,7 +40,7 @@
 
     // Do any additional setup after loading the view from its nib.
     lblTitle.font = [Util customBoldFontWithSize:22.0];
-  //  _backBtn.titleLabel.font = [Util customRegularFontWithSize:15.0];
+    _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
     NSArray* arr = [[ModelManager shareInstance] loadProductFromDB];
     arr = [arr filteredArrayUsingPredicate:[NSPredicate
                                             predicateWithFormat:@"collectionId == %@", selectedCollection.categoryId]];

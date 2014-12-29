@@ -28,7 +28,7 @@
 
 -(void)awakeFromNib
 {
-   // _backBtn.titleLabel.font =  [Util customRegularFontWithSize:15.0];
+    _backBtn.titleLabel.font =  [Util customBoldFontWithSize:15];
 }
 
 - (IBAction)shareFB:(id)sender

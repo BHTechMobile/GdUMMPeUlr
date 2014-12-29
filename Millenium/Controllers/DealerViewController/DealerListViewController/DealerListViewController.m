@@ -81,7 +81,7 @@
     [self initView];
     [self changeLang];
 
-    
+    _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
 }
 
 -(void)changeLang

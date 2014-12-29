@@ -255,6 +255,7 @@
             cell.delegate = self;
         }
         [cell.backBtn setTitle:SetupLanguage(kLang_Back) forState:UIControlStateNormal];
+        cell.backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
         return cell;
     }
 }

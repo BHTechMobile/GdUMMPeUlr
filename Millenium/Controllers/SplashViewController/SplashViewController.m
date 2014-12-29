@@ -284,7 +284,8 @@
 
 -(void)loadTabbar
 {
-    UIFont* font = [Util customBoldFontWithSize:10.0];
+//    UIFont* font = [Util customBoldFontWithSize:10.0];
+    UIFont* font = [Util customRegularFontWithSize:10.0];
     NewsListViewController *newsListViewController = [[NewsListViewController alloc]
                                                       initWithNibName:[NSString stringWithFormat:@"NewsListViewController"]
                                                       bundle:nil];

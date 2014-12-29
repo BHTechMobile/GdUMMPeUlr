@@ -48,7 +48,7 @@
     _titleLbl.font = [Util customBoldFontWithSize:22.0];
     [self changeLang];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadTable) name:KNotifi_reloadListVer object:Nil];
-   
+    _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
     
 }
 -(void)reloadTable{

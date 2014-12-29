@@ -46,7 +46,7 @@
 "kLang_YouhaveChoose_TimeServiceFrom8To17"  =   "Our services are only avaiiable between 08:00 to 17:00, can you please re-select? ";
 "kLang_BookingService"          =   "Booking Service";
 "kLang_BookService"             =   "Book";
-"kLang_RequestThisBooking"  =   "Submit request";
+"kLang_RequestThisBooking"  =   "SUBMIT REQUEST";
 "kLang_ConfirmThisBooking"  =   "Submit this booking";
 "kLang_Vehicle"             =   "Vehicle";
 "kLang_Branch"              =   "Branch";
@@ -109,7 +109,7 @@
 "kLang_Address"             =   "Address";
 "kLang_OpeningHours"        =   "Opening Hours";
 
-"kLang_Call"                =   "    CALL";
+"kLang_Call"                =   " CALL";
 "kLang_Next"                =   "Next";
 "kLang_Previous"            =   "Previous";
 "kLang_Edit"                =   "Edit";

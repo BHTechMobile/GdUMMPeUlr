@@ -127,7 +127,10 @@
     cell.btnCall.tag=indexPath.row;
     
     [cell.btnCall setTitle:SetupLanguage(kLang_Call) forState:UIControlStateNormal];
-    
+    [cell.btnCall setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    cell.btnCall.titleLabel.font = [Util customBoldFontWithSize:16];
+    [cell.btnCall
+     .titleLabel setTextAlignment: NSTextAlignmentCenter];
     [cell.contentView setBackgroundColor:[UIColor clearColor]];
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     return cell;

@@ -389,6 +389,8 @@
 		8B87BDD11959767000C5443C /* buttonAddVeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B87BDCF1959767000C5443C /* buttonAddVeh.png */; };
 		8B87BDD21959767000C5443C /* buttonAddVeh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B87BDD01959767000C5443C /* buttonAddVeh@2x.png */; };
 		8BA4C6FF1935D63C00F5B0D8 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4C6FE1935D63C00F5B0D8 /* arrow.png */; };
+		9F0548941A51473500BCAA71 /* car_sos.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0548931A51473500BCAA71 /* car_sos.png */; };
+		9F0548961A51497400BCAA71 /* slogan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0548951A51497400BCAA71 /* slogan.png */; };
 		9F95572F1A4EB36400B4A94C /* MiniBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572A1A4EB36400B4A94C /* MiniBd.ttf */; };
 		9F9557301A4EB36400B4A94C /* MiniHd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572B1A4EB36400B4A94C /* MiniHd.ttf */; };
 		9F9557311A4EB36400B4A94C /* MiniHdBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572C1A4EB36400B4A94C /* MiniHdBd.ttf */; };
@@ -936,6 +938,8 @@
 		8B87BDCF1959767000C5443C /* buttonAddVeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonAddVeh.png; sourceTree = "<group>"; };
 		8B87BDD01959767000C5443C /* buttonAddVeh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonAddVeh@2x.png"; sourceTree = "<group>"; };
 		8BA4C6FE1935D63C00F5B0D8 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		9F0548931A51473500BCAA71 /* car_sos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car_sos.png; sourceTree = "<group>"; };
+		9F0548951A51497400BCAA71 /* slogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slogan.png; sourceTree = "<group>"; };
 		9F95572A1A4EB36400B4A94C /* MiniBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniBd.ttf; sourceTree = "<group>"; };
 		9F95572B1A4EB36400B4A94C /* MiniHd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniHd.ttf; sourceTree = "<group>"; };
 		9F95572C1A4EB36400B4A94C /* MiniHdBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniHdBd.ttf; sourceTree = "<group>"; };
@@ -1483,6 +1487,7 @@
 		6672B3CB18B4AFB400B01BC3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9F0548951A51497400BCAA71 /* slogan.png */,
 				9F9557341A4EC64E00B4A94C /* arrow_ngc.png */,
 				9F9557351A4EC64E00B4A94C /* arrow_ngc@2x.png */,
 				8B6027861958138200F2C296 /* New UI */,
@@ -2341,6 +2346,7 @@
 		6CDAC12418B84E180001CF3A /* sos */ = {
 			isa = PBXGroup;
 			children = (
+				9F0548931A51473500BCAA71 /* car_sos.png */,
 				6C4562E218BA100E00F1FD8E /* btn_submit.png */,
 				6C4562E318BA100E00F1FD8E /* btn_submit@2x.png */,
 				6C4562E418BA100E00F1FD8E /* checkbox_tick.png */,
@@ -2621,6 +2627,7 @@
 				6CDAC17218B860EE0001CF3A /* (null) in Resources */,
 				660504F318BAEB290061B1AD /* btn_scanQRCode.png in Resources */,
 				6C36638C18BF05BA00FAC5B6 /* ic_user@2x.png in Resources */,
+				9F0548941A51473500BCAA71 /* car_sos.png in Resources */,
 				6C47248318BC42AE00EFBDF4 /* RegisterVehicleViewController.xib in Resources */,
 				6C4562E018BA100000F1FD8E /* textfield.png in Resources */,
 				66D7487D18C83AAD007B13D6 /* BMW Thailand Bold.ttf in Resources */,
@@ -2636,6 +2643,7 @@
 				8B40634219372F5D00A2DA3B /* arrow@2x.png in Resources */,
 				66CF05E918BF53C000ED31C6 /* ic_news.png in Resources */,
 				66D978BA18B59CB60001A1B7 /* ServiceListViewController.xib in Resources */,
+				9F0548961A51497400BCAA71 /* slogan.png in Resources */,
 				66E179F118B746CA0022BA0D /* CollectionCell.xib in Resources */,
 				66D978B418B59C4D0001A1B7 /* NewsListViewController.xib in Resources */,
 				6CDAC16518B85CB80001CF3A /* (null) in Resources */,

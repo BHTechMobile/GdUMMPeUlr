@@ -85,9 +85,10 @@
     UIFont* boldFont = [Util customBoldFontWithSize:15.0];
     UIFont* regularFont = [Util customRegularFontWithSize:13.0];
     
-    _nameLbl.font = _emailLbl.font = _telLbl.font = _defaultVehicle.font = _favoriteBranchLbl.font = boldFont;
-    _nameLblTH.font = _mobileLblTH.font = _defaultVehicleLblTH.font = _favoriteBranchLblTH.font = regularFont;
-    
+    _nameLbl.font = _emailLbl.font = _telLbl.font = _defaultVehicle.font = _favoriteBranchLbl.font =
+    _nameLblTH.font = _mobileLblTH.font = _defaultVehicleLblTH.font = _favoriteBranchLblTH.font = 
+    lblDefaultVehicle.font = lblFavoriteBranch.font = regularFont;
+    _addVehicle.titleLabel.font = _backBtn.titleLabel.font =  boldFont;
 }
 
 -(void)changeLang
