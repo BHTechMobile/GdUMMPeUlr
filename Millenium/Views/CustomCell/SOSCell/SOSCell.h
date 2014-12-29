@@ -12,5 +12,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblSOSName;
 @property (weak, nonatomic) IBOutlet UILabel *lblPhone;
 @property (weak, nonatomic) IBOutlet UIButton *btnCall;
+@property (weak, nonatomic) IBOutlet UILabel *lblCall;
 
 @end

@@ -123,14 +123,9 @@
     
     cell.lblSOSName.text = obj.name;
     cell.lblPhone.text=obj.phone;
-    
     cell.btnCall.tag=indexPath.row;
-    
-    [cell.btnCall setTitle:SetupLanguage(kLang_Call) forState:UIControlStateNormal];
-    [cell.btnCall setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    cell.btnCall.titleLabel.font = [Util customBoldFontWithSize:16];
-    [cell.btnCall
-     .titleLabel setTextAlignment: NSTextAlignmentCenter];
+    [cell.lblCall setText:SetupLanguage(kLang_Call)];
+    cell.lblCall.font = [Util customBoldFontWithSize:18];
     [cell.contentView setBackgroundColor:[UIColor clearColor]];
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     return cell;
