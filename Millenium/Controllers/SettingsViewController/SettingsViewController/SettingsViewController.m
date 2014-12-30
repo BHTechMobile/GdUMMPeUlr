@@ -15,6 +15,7 @@
 #import <Social/Social.h>
 #import "BaseViewController.h"
 #import "RegisterVehicleViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface SettingsViewController ()<UIAlertViewDelegate>
 {
@@ -45,6 +46,7 @@
 {
     [super viewDidLoad];
     [self setUpFont];
+    _languageSegment.layer.cornerRadius = 5;
     //self.title = @"Settings";
     // Do any additional setup after loading the view from its nib.
     self.navigationController.navigationBarHidden = YES;
@@ -83,14 +85,15 @@
     UIFont* boldFont = [Util customBoldFontWithSize:15.0];
     UIFont* regularFont = [Util customRegularFontWithSize:13.0];
     
-    _nameLbl.font = _emailLbl.font = _telLbl.font = _defaultVehicle.font = _favoriteBranchLbl.font = boldFont;
-    _nameLblTH.font = _mobileLblTH.font = _defaultVehicleLblTH.font = _favoriteBranchLblTH.font = regularFont;
-    
+    _nameLbl.font = _emailLbl.font = _telLbl.font = _defaultVehicle.font = _favoriteBranchLbl.font =
+    _nameLblTH.font = _mobileLblTH.font = _defaultVehicleLblTH.font = _favoriteBranchLblTH.font = 
+    lblDefaultVehicle.font = lblFavoriteBranch.font = regularFont;
+    _addVehicle.titleLabel.font = _backBtn.titleLabel.font =  boldFont;
 }
 
 -(void)changeLang
 {
-    _titleLbl.text = [SetupLanguage(kLang_EditProfile) uppercaseString];
+    _titleLbl.text = [SetupLanguage(kLang_EditProfile_Title) uppercaseString];
     CGRect rect = _titleLbl.frame;
     rect.size.width = 187.;_titleLbl.frame = rect;
     [_titleLbl sizeToFit];

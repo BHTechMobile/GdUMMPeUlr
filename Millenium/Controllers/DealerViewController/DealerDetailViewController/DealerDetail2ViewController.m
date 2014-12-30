@@ -60,9 +60,9 @@
 -(void)setUpFont
 {
     _titleLbl.font = [Util customBoldFontWithSize:22.0];
-   // _backBtn.titleLabel.font = [Util customRegularFontWithSize:15.0];
+    _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
     UIFont* font = [Util customRegularFontWithSize:14.0];
-    lblDealerNama.font = [Util customBoldFontWithSize:15.0];
+    lblDealerNama.font = _backBtn.titleLabel.font = [Util customBoldFontWithSize:15.0];
     lblAddressTitle.font = font;
     lblAddress.font = font;
     _telBtn.titleLabel.font = _distanceLbl.font = font;

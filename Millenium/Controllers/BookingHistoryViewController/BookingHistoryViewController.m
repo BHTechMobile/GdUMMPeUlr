@@ -79,6 +79,7 @@
     if(gArrAllBookingHistory== nil)
         [_tblView triggerPullToRefresh];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(update) name:kNotifi_UpdateBookingHistory object:nil];
+    _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
 }
 
 - (void)didReceiveMemoryWarning

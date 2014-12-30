@@ -63,6 +63,10 @@
 -(void)slideUpView:(UIView*)view offset:(CGFloat)offset;
 -(void)slideDownView:(UIView*)view offset:(CGFloat)offset;
 
+//
+//+(UIFont*)customMiniTypeRegularBoldWithSize:(float)size;
+//+(UIFont*)customMiniTypeHeadLineBoldWithSize:(float)size;
+
 +(UIFont*)customRegularFontWithSize:(float)size;
 +(UIFont*)customBoldFontWithSize:(float)size;
 +(UIFont*)customLigthWithSize:(float)size;

@@ -63,16 +63,17 @@
 {
     _titleLbl.font = [Util customBoldFontWithSize:22.0];
     UIFont* boldFont = [Util customBoldFontWithSize:15.0];
-    UIFont* regularFont = [Util customRegularFontWithSize:13.0];
+    UIFont* regularFont = [Util customRegularFontWithSize:12.0];
     
-    _inputYourVINLbl.font = _vehicelModelLbl.font = _licensePlateLbl.font = boldFont;
+    _inputYourVINLbl.font = _vehicelModelLbl.font = _licensePlateLbl.font =
     _inputYourVINLblTH.font = _vehicleModelLblTH.font = _licensePlateLblTH.font = regularFont;
+    _registerBtn.titleLabel.font = _checkVINLbl.titleLabel.font = _backBtn.titleLabel.font = boldFont;
 }
 
 -(void)changeLang
 {
     
-    _titleLbl.text = [SetupLanguage(kLang_AddVehicle) uppercaseString];
+    _titleLbl.text = [SetupLanguage(kLang_AddVehicle_Title) uppercaseString];
     CGRect rect = _titleLbl.frame;
     rect.size.width = 187.;_titleLbl.frame = rect;
     [_titleLbl sizeToFit];

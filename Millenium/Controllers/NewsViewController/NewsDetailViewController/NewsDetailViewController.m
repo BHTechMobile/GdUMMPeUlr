@@ -216,6 +216,7 @@
     {
         NSString* textCellIden = [NSString stringWithFormat:@"TextViewCell_%d_%d",indexPath.section,indexPath.row];
         TextViewCell* cell = [tableView dequeueReusableCellWithIdentifier:textCellIden];
+        cell.backgroundColor = [UIColor blackColor];
         if(cell == nil)
         {
             UINib *nib = [UINib nibWithNibName:@"TextViewCell" bundle:nil];
@@ -231,7 +232,18 @@
             cell.txtView.hidden = YES;
             cell.webView.delegate = self;
             cell.webView.tag = 500;
-            [cell.webView loadHTMLString:_content baseURL:nil];
+            NSString *htmlContent = [NSString stringWithFormat:@"\
+                                     <html>\
+                                     <head>\
+                                     <style type=\"text/css\">\
+                                     body {background-color:#000; padding-left:10px; padding-right:10px; color: #fff;}\
+                                     </style>\
+                                     </head>\
+                                     <body>\
+                                     %@\
+                                     </body>\
+                                     </html>", _content];
+            [cell.webView loadHTMLString:htmlContent baseURL:nil];
         }
         return cell;
     } else
@@ -243,6 +255,7 @@
             cell.delegate = self;
         }
         [cell.backBtn setTitle:SetupLanguage(kLang_Back) forState:UIControlStateNormal];
+        cell.backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
         return cell;
     }
 }

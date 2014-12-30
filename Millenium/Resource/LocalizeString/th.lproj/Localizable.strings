@@ -1,10 +1,10 @@
-/* 
-  Localizable.strings
-  Millenium
-
-  Created by duc le on 3/3/14.
-  Copyright (c) 2014 Fruity. All rights reserved.
-*/
+/*
+ Localizable.strings
+ Millenium
+ 
+ Created by duc le on 3/3/14.
+ Copyright (c) 2014 Fruity. All rights reserved.
+ */
 "Yesterday you sold %@ apps" = "Yesterday you sold %@ apps";
 
 "You like?" = "You like Thailand?";
@@ -14,10 +14,12 @@
 "kLang_BMWCarService" = "BMW บริการ รถ";
 "kLang_News" = "ข่าว" ;
 "kLang_Services" = "บริการ" ;
-"kLang_Service"     =  "บริการ" ;
+"kLang_Service"     =  "MINI บริการ" ;
 "kLang_Booking"     =   "การจอง";
 "kLang_Dealers" = "ดีลเลอร์";
+"kLang_Dealers_Title"     =   "MINI ดีลเลอร์";
 "kLang_Collection" = "สินค้า";
+"kLang_Collection_Title" = "สินค้า";
 "kLang_SOS" = "SOS";
 "kLang_Emegency_Serivce" = "บริการฉุกเฉิน";
 
@@ -26,6 +28,7 @@
 "kLang_Back" = " ย้อนกลับ" ;
 
 "kLang_EditProfile" = "แก้ไขข้อมูลส่วนตัว";
+"kLang_EditProfile_Title" = "แก้ไขข้อมูลส่วนตัว";
 "kLang_BookingHistory" = "ประวัติการจอง";
 "kLang_SelectVehicle" = "เลือกรถ";
 "kLang_SelectBranch" = "เลือก สาขา";
@@ -85,6 +88,7 @@
 "kLang_FavoriteBranch" = "โปรด สาขา";
 "kLang_Save" = "บันทึก";
 "kLang_AddVehicle" = "เพิ่ม ยานพาหนะ";
+"kLang_AddVehicle_Title"    =   "เพิ่ม ยานพาหนะ";
 "kLang_ConnectToFacebook" = "เชื่อมต่อ ไปที่ Facebook";
 "kLang_ConnectToTwitter" = "การเชื่อมต่อกับ Twitter";
 "kLang_ConnectedFB" = "Facebook เชื่อมต่อ";

@@ -121,7 +121,7 @@
 
 -(void)changeLang
 {
-    self.titleLbl.text = [SetupLanguage(kLang_News) uppercaseString];
+    self.titleLbl.text = [SetupLanguage(kLang_NewsDetail) uppercaseString];
     CGRect rect = _titleLbl.frame;
     rect.size.width = 187.;_titleLbl.frame = rect;
     [self.titleLbl sizeToFit];

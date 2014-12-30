@@ -324,17 +324,31 @@
 
 #pragma mark Font
 
+//+(UIFont*)customMiniTypeRegularBoldWithSize:(float)size
+//{
+//    return [UIFont fontWithName:@"MiniBd" size:size];
+//}
+//
+//+(UIFont*)customMiniTypeHeadLineBoldWithSize:(float)size
+//{
+//    return [UIFont fontWithName:@"MiniHdBd" size:size];
+//}
+
 +(UIFont*)customRegularFontWithSize:(float)size
 {
-    return [UIFont fontWithName:@"BMWTypeGlobalPro-Regular" size:size];
+//    return [UIFont fontWithName:@"BMWTypeGlobalPro-Regular" size:size];
+    return [UIFont fontWithName:@"MINITypeRegular-Regular" size:size];
+    
 }
 +(UIFont*)customBoldFontWithSize:(float)size
 {
-    return [UIFont fontWithName:@"BMWTypeGlobalPro-Bold" size:size];
+//    return [UIFont fontWithName:@"BMWTypeGlobalPro-Bold" size:size];
+    return [UIFont fontWithName:@"MINITypeHeadline-Bold" size:size];
+    
 }
 +(UIFont*)customLigthWithSize:(float)size
 {
-    return [UIFont fontWithName:@"BMWTypeGlobalPro-Light" size:size];
+    return [UIFont fontWithName:@"BMWTypeGlobalPro-Bold" size:size];
 }
 
 +(BOOL)canDevicePlaceAPhoneCall {

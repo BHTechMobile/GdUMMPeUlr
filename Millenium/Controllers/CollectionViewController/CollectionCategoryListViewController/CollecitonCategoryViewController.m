@@ -37,7 +37,7 @@
     if([self respondsToSelector:@selector(setEdgesForExtendedLayout:)])
         [self setEdgesForExtendedLayout:UIRectEdgeNone];
     _titleLbl.font = [Util customBoldFontWithSize:22.0];
-  //  _backBtn.titleLabel.font = [Util customRegularFontWithSize:15.0];
+    _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
     
     self.titleLbl.text = [selectCollection.name uppercaseString];
     [self.titleLbl sizeToFit];

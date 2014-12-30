@@ -20,6 +20,7 @@
 
 @interface SplashViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@property (weak, nonatomic) IBOutlet UIButton *tapToStartButton;
 @property (weak, nonatomic) IBOutlet YLProgressBar *progress;
 @property (weak, nonatomic) IBOutlet UIButton *tapBtn;
 @property (nonatomic, strong) MyTabbarController* tabbarViewController;
@@ -54,6 +55,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _tapToStartButton.font = [Util customBoldFontWithSize:24];
 //    if (gArrAllLogo.count==0) {
 //        [imgSplash setImage:[UIImage imageNamed:@"Default@2x.png"]];
 //    }
@@ -282,7 +284,8 @@
 
 -(void)loadTabbar
 {
-    UIFont* font = [Util customBoldFontWithSize:10.0];
+//    UIFont* font = [Util customBoldFontWithSize:10.0];
+    UIFont* font = [Util customRegularFontWithSize:10.0];
     NewsListViewController *newsListViewController = [[NewsListViewController alloc]
                                                       initWithNibName:[NSString stringWithFormat:@"NewsListViewController"]
                                                       bundle:nil];
@@ -290,7 +293,7 @@
     [newsListViewController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"ic_news_select.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"ic_news.png"]];
     newsListViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_news_select.png"];
     [newsListViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                               FS_UICOLOR_RGB(28, 105, 212), UITextAttributeTextColor,
+                                                               FS_UICOLOR_RGB(255, 0, 0), UITextAttributeTextColor,
                                                                //                                                          [UIColor colorWithWhite:0.0 alpha:0.3], UITextAttributeTextShadowColor,
                                                                //                                                          [NSValue valueWithUIOffset:UIOffsetMake(0, 1)], UITextAttributeTextShadowOffset,
                                                                font,UITextAttributeFont,
@@ -308,7 +311,7 @@
     [serviceListViewController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"ic_services_select.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"ic_services.png"]];
     serviceListViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_services_select.png"];
     [serviceListViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                                  FS_UICOLOR_RGB(28, 105, 212), UITextAttributeTextColor,
+                                                                  FS_UICOLOR_RGB(255, 0, 0), UITextAttributeTextColor,
                                                                   font, UITextAttributeFont,
                                                                   nil] forState:UIControlStateSelected];
     [serviceListViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
@@ -324,7 +327,7 @@
     [collectionListViewController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"ic_collections_select.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"ic_collections.png"]];
     collectionListViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_collections_select.png"];
     [collectionListViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                                     FS_UICOLOR_RGB(28, 105, 212), UITextAttributeTextColor,
+                                                                     FS_UICOLOR_RGB(255, 0, 0), UITextAttributeTextColor,
                                                                      nil] forState:UIControlStateSelected];
     [collectionListViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                                                      FS_UICOLOR_RGB(146, 146, 146), UITextAttributeTextColor,
@@ -339,7 +342,7 @@
     [dealerListViewController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"ic_dealers_select.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"ic_dealers.png"]];
     dealerListViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_dealers_select.png"];
     [dealerListViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                                 FS_UICOLOR_RGB(28, 105, 212), UITextAttributeTextColor,
+                                                                 FS_UICOLOR_RGB(255, 0, 0), UITextAttributeTextColor,
                                                                  font, UITextAttributeFont,
                                                                  nil] forState:UIControlStateSelected];
     [dealerListViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
@@ -356,7 +359,7 @@
     [sosViewController.tabBarItem setFinishedSelectedImage:[UIImage imageNamed:@"ic_sos_select.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"ic_sos.png"]];
     sosViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_sos_select.png"];
     [sosViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
-                                                          FS_UICOLOR_RGB(28, 105, 212), UITextAttributeTextColor,
+                                                          FS_UICOLOR_RGB(255, 0, 0), UITextAttributeTextColor,
                                                           font, UITextAttributeFont,
                                                           nil] forState:UIControlStateSelected];
     [sosViewController.tabBarItem setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
@@ -365,12 +368,14 @@
                                                           nil] forState:UIControlStateNormal];
     MSSlideNavigationController* sosNaviVC = [[MSSlideNavigationController alloc] initWithRootViewController:sosViewController];
     self.tabbarViewController = [[MyTabbarController alloc] init];
-    //[self.tabbarViewController.tabBar setBackgroundImage:[UIImage imageNamed:@"bg_tab.png"]];
+    [self.tabbarViewController.tabBar setBackgroundImage:[UIImage imageNamed:@"bg_header_gray.png"]];
     
     NSArray *listNavigationController = @[newsNaviVC,servicesNaviVC,dealderNaviVC,collectionsNaviVC,sosNaviVC];
     for(UINavigationController* naviVC in listNavigationController)
         naviVC.navigationBarHidden = YES;
+    
     _tabbarViewController.viewControllers = listNavigationController;
+    _tabbarViewController.tabBar.selectedImageTintColor = [UIColor redColor];
     [_tabbarViewController setSelectedIndex:1];
     
     ((AppDelegate*)[[UIApplication sharedApplication] delegate]).tabbarViewController = _tabbarViewController;

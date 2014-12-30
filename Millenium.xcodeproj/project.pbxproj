@@ -389,6 +389,15 @@
 		8B87BDD11959767000C5443C /* buttonAddVeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B87BDCF1959767000C5443C /* buttonAddVeh.png */; };
 		8B87BDD21959767000C5443C /* buttonAddVeh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B87BDD01959767000C5443C /* buttonAddVeh@2x.png */; };
 		8BA4C6FF1935D63C00F5B0D8 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4C6FE1935D63C00F5B0D8 /* arrow.png */; };
+		9F0548941A51473500BCAA71 /* car_sos.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0548931A51473500BCAA71 /* car_sos.png */; };
+		9F0548961A51497400BCAA71 /* slogan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0548951A51497400BCAA71 /* slogan.png */; };
+		9F95572F1A4EB36400B4A94C /* MiniBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572A1A4EB36400B4A94C /* MiniBd.ttf */; };
+		9F9557301A4EB36400B4A94C /* MiniHd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572B1A4EB36400B4A94C /* MiniHd.ttf */; };
+		9F9557311A4EB36400B4A94C /* MiniHdBd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572C1A4EB36400B4A94C /* MiniHdBd.ttf */; };
+		9F9557321A4EB36400B4A94C /* MiniHdIcon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572D1A4EB36400B4A94C /* MiniHdIcon.ttf */; };
+		9F9557331A4EB36400B4A94C /* MiniRg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572E1A4EB36400B4A94C /* MiniRg.ttf */; };
+		9F9557361A4EC64E00B4A94C /* arrow_ngc.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9557341A4EC64E00B4A94C /* arrow_ngc.png */; };
+		9F9557371A4EC64E00B4A94C /* arrow_ngc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9557351A4EC64E00B4A94C /* arrow_ngc@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -929,6 +938,15 @@
 		8B87BDCF1959767000C5443C /* buttonAddVeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonAddVeh.png; sourceTree = "<group>"; };
 		8B87BDD01959767000C5443C /* buttonAddVeh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonAddVeh@2x.png"; sourceTree = "<group>"; };
 		8BA4C6FE1935D63C00F5B0D8 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		9F0548931A51473500BCAA71 /* car_sos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car_sos.png; sourceTree = "<group>"; };
+		9F0548951A51497400BCAA71 /* slogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slogan.png; sourceTree = "<group>"; };
+		9F95572A1A4EB36400B4A94C /* MiniBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniBd.ttf; sourceTree = "<group>"; };
+		9F95572B1A4EB36400B4A94C /* MiniHd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniHd.ttf; sourceTree = "<group>"; };
+		9F95572C1A4EB36400B4A94C /* MiniHdBd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniHdBd.ttf; sourceTree = "<group>"; };
+		9F95572D1A4EB36400B4A94C /* MiniHdIcon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniHdIcon.ttf; sourceTree = "<group>"; };
+		9F95572E1A4EB36400B4A94C /* MiniRg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniRg.ttf; sourceTree = "<group>"; };
+		9F9557341A4EC64E00B4A94C /* arrow_ngc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_ngc.png; sourceTree = "<group>"; };
+		9F9557351A4EC64E00B4A94C /* arrow_ngc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_ngc@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1194,7 +1212,6 @@
 				6CBAC17718B767BA00453851 /* MessageCell */,
 				6CBAC16718B75CA400453851 /* DealerCell */,
 				66E179FC18B76ED40022BA0D /* CollectionListCell */,
-				66E179EC18B7469A0022BA0D /* CollectionCell */,
 				6657F80018B5FA1E009F074D /* TextViewCell */,
 				6657F7E318B5F45C009F074D /* ShareSocialCell */,
 				6657F7E418B5F45C009F074D /* ImageCell */,
@@ -1206,6 +1223,7 @@
 		6657F7CB18B5E26F009F074D /* NewsListCell */ = {
 			isa = PBXGroup;
 			children = (
+				66E179EC18B7469A0022BA0D /* CollectionCell */,
 				6C45630418BA106900F1FD8E /* NewsListCell.h */,
 				6C45630518BA106900F1FD8E /* NewsListCell.m */,
 				6C45630618BA106900F1FD8E /* NewsListCell.xib */,
@@ -1469,6 +1487,9 @@
 		6672B3CB18B4AFB400B01BC3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9F0548951A51497400BCAA71 /* slogan.png */,
+				9F9557341A4EC64E00B4A94C /* arrow_ngc.png */,
+				9F9557351A4EC64E00B4A94C /* arrow_ngc@2x.png */,
 				8B6027861958138200F2C296 /* New UI */,
 				8B40634119372F5D00A2DA3B /* arrow@2x.png */,
 				8B4063231936E13500A2DA3B /* info-25.png */,
@@ -1613,6 +1634,7 @@
 		66D7487818C83AAD007B13D6 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				9F9557291A4EB36400B4A94C /* MINI  */,
 				66EA0A0B18D6A05200816DF0 /* BMW Type Global Pro */,
 				66D7487918C83AAD007B13D6 /* BMW Thailand */,
 			);
@@ -2018,7 +2040,8 @@
 				66E179EE18B746B30022BA0D /* CollectionCell.m */,
 				66E179F018B746CA0022BA0D /* CollectionCell.xib */,
 			);
-			path = CollectionCell;
+			name = CollectionCell;
+			path = ../CollectionCell;
 			sourceTree = "<group>";
 		};
 		66E179F618B74E390022BA0D /* CollectionCategoryListViewController */ = {
@@ -2323,6 +2346,7 @@
 		6CDAC12418B84E180001CF3A /* sos */ = {
 			isa = PBXGroup;
 			children = (
+				9F0548931A51473500BCAA71 /* car_sos.png */,
 				6C4562E218BA100E00F1FD8E /* btn_submit.png */,
 				6C4562E318BA100E00F1FD8E /* btn_submit@2x.png */,
 				6C4562E418BA100E00F1FD8E /* checkbox_tick.png */,
@@ -2387,6 +2411,18 @@
 				8B60278E195813A200F2C296 /* editProfileButton@2x.png */,
 			);
 			name = "New UI";
+			sourceTree = "<group>";
+		};
+		9F9557291A4EB36400B4A94C /* MINI  */ = {
+			isa = PBXGroup;
+			children = (
+				9F95572A1A4EB36400B4A94C /* MiniBd.ttf */,
+				9F95572B1A4EB36400B4A94C /* MiniHd.ttf */,
+				9F95572C1A4EB36400B4A94C /* MiniHdBd.ttf */,
+				9F95572D1A4EB36400B4A94C /* MiniHdIcon.ttf */,
+				9F95572E1A4EB36400B4A94C /* MiniRg.ttf */,
+			);
+			path = "MINI ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2479,8 +2515,10 @@
 				660504F818BAEB290061B1AD /* placeholder_car@2x.png in Resources */,
 				8B87BDCA1959727300C5443C /* buttonSubmit@2x.png in Resources */,
 				42EB65EE1906514300482C26 /* SlotTimeBtn@2x.png in Resources */,
+				9F95572F1A4EB36400B4A94C /* MiniBd.ttf in Resources */,
 				6657F7FB18B5F8B9009F074D /* facebook@2x.png in Resources */,
 				66CF05E518BF53C000ED31C6 /* ic_dealers_select.png in Resources */,
+				9F9557361A4EC64E00B4A94C /* arrow_ngc.png in Resources */,
 				6657F82018B61BFA009F074D /* 144.png in Resources */,
 				6CDAC16418B85CB80001CF3A /* (null) in Resources */,
 				66EA0A1118D6A05200816DF0 /* BMWGlobal_Pro_reg.ttf in Resources */,
@@ -2497,6 +2535,7 @@
 				6CDAC14A18B84E2C0001CF3A /* (null) in Resources */,
 				6657F7F218B5F7B4009F074D /* ShareSocialCell.xib in Resources */,
 				6C9F91C218C7082A00B37771 /* SubCollectionViewController.xib in Resources */,
+				9F9557321A4EB36400B4A94C /* MiniHdIcon.ttf in Resources */,
 				8B60279D1958148800F2C296 /* callSOS.png in Resources */,
 				6605050F18BB0EAE0061B1AD /* VehicleCell.xib in Resources */,
 				66CF05C618BF261000ED31C6 /* img_header@2x.png in Resources */,
@@ -2526,8 +2565,10 @@
 				8B602792195813A200F2C296 /* bookOnlineButton@2x.png in Resources */,
 				66CF05E718BF53C000ED31C6 /* ic_sos_select.png in Resources */,
 				66CF05BD18BEDFD000ED31C6 /* img_header.png in Resources */,
+				9F9557371A4EC64E00B4A94C /* arrow_ngc@2x.png in Resources */,
 				6C4562F918BA101E00F1FD8E /* delimeter@2x.png in Resources */,
 				66D7487F18C83AAD007B13D6 /* BMW Thailand Regular.ttf in Resources */,
+				9F9557311A4EB36400B4A94C /* MiniHdBd.ttf in Resources */,
 				66CF05B918BEDFD000ED31C6 /* bg_btn_blue.png in Resources */,
 				66DA448318C56F2500BAE3BD /* TitleCell.xib in Resources */,
 				660504EA18BAE8E10061B1AD /* ServiceListCell.xib in Resources */,
@@ -2538,6 +2579,7 @@
 				6CDAC17318B860EE0001CF3A /* (null) in Resources */,
 				66E8833218D97C8B00B0E744 /* bg_selectbox_next.png in Resources */,
 				6C4562DC18BA100000F1FD8E /* btn_send.png in Resources */,
+				9F9557301A4EB36400B4A94C /* MiniHd.ttf in Resources */,
 				6C4562FE18BA103C00F1FD8E /* MessageCell.xib in Resources */,
 				6C31653718BC7EC200A77E86 /* zbar-help.html in Resources */,
 				66D978E818B5BCD90001A1B7 /* ic_collections@2x.png in Resources */,
@@ -2585,6 +2627,7 @@
 				6CDAC17218B860EE0001CF3A /* (null) in Resources */,
 				660504F318BAEB290061B1AD /* btn_scanQRCode.png in Resources */,
 				6C36638C18BF05BA00FAC5B6 /* ic_user@2x.png in Resources */,
+				9F0548941A51473500BCAA71 /* car_sos.png in Resources */,
 				6C47248318BC42AE00EFBDF4 /* RegisterVehicleViewController.xib in Resources */,
 				6C4562E018BA100000F1FD8E /* textfield.png in Resources */,
 				66D7487D18C83AAD007B13D6 /* BMW Thailand Bold.ttf in Resources */,
@@ -2600,6 +2643,7 @@
 				8B40634219372F5D00A2DA3B /* arrow@2x.png in Resources */,
 				66CF05E918BF53C000ED31C6 /* ic_news.png in Resources */,
 				66D978BA18B59CB60001A1B7 /* ServiceListViewController.xib in Resources */,
+				9F0548961A51497400BCAA71 /* slogan.png in Resources */,
 				66E179F118B746CA0022BA0D /* CollectionCell.xib in Resources */,
 				66D978B418B59C4D0001A1B7 /* NewsListViewController.xib in Resources */,
 				6CDAC16518B85CB80001CF3A /* (null) in Resources */,
@@ -2614,6 +2658,7 @@
 				66CF05EA18BF53C000ED31C6 /* ic_news_select.png in Resources */,
 				6C4562EE18BA100E00F1FD8E /* checkbox.png in Resources */,
 				660504F618BAEB290061B1AD /* placeholder_addcar@2x.png in Resources */,
+				9F9557331A4EB36400B4A94C /* MiniRg.ttf in Resources */,
 				6657F82118B61BFA009F074D /* 152.png in Resources */,
 				6657F7ED18B5F75F009F074D /* no_img_big.png in Resources */,
 				6CDAC12F18B84E180001CF3A /* (null) in Resources */,
@@ -2897,7 +2942,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
@@ -2924,7 +2969,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";

@@ -15,6 +15,7 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
+        
     }
     return self;
 }
@@ -30,6 +31,7 @@
 {
     _serviceNameLbl.font = [Util customBoldFontWithSize:16.0];
     _desLbl.font = [Util customRegularFontWithSize:13.0];
+    _lbl_callService.titleLabel.font = _lblbookOnlien.font = [Util customBoldFontWithSize:27];
 }
 
 - (IBAction)bookService:(UIButton*)sender

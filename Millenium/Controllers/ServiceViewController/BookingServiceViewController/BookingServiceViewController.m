@@ -482,28 +482,18 @@
     _titleLbl.font = [Util customBoldFontWithSize:22.0];
     
     UIFont* regularFont = [Util customRegularFontWithSize:11.0];
+    UIFont* regularFont_Two = [Util customRegularFontWithSize:12.0];
     UIFont* boldFont  = [Util customBoldFontWithSize:13.0];
     
-    _selectBranchLbl.font = boldFont;
-    _selectBranchLblTH.font = regularFont;
-    _selectVehicleLbl.font = boldFont;
-    _selectVehicleLblTH.font = regularFont;
-    _selectDateTimeLbl.font = boldFont;
-    _selectDateTimeLblTH.font = regularFont;
-    _serviceTypeLbl.font = boldFont;
-    _serviceTypeLblTH.font = regularFont;
-    _requestServiceLbl.font = boldFont;
-    _serviceNoteLblTH.font = regularFont;
+    _selectBranchLbl.font = _selectBranchLblTH.font = _selectVehicleLbl.font =
+    _selectVehicleLblTH.font = _selectDateTimeLbl.font = _selectDateTimeLblTH.font = regularFont_Two;
+    _serviceTypeLbl.font = _requestServiceLbl.font = boldFont;
+    _serviceNoteLblTH.font = _serviceTypeLblTH.font = _branchBtn.titleLabel.font =
+    _vehicleBtn.titleLabel.font = regularFont;
     
-    _vehicleLbl.font = _branchLbl.font = _serviceLanceLbl.font = [Util customBoldFontWithSize:13];
-    //_vehicleLbl.font = boldFont;
-    //_branchLbl.font = boldFont;
-    //_serviceLanceLbl.font = boldFont;
-    
-    //_dateLbl.font = _timeLbl.font = boldFont;
-    //_infoTxtView.font = [Util customRegularFontWithSize:14.0];
-    
-    //_requestBookingBtn.titleLabel.font = _backBtn.titleLabel.font = boldFont;
+    _vehicleLbl.font = _branchLbl.font = _serviceLanceLbl.font = _dateLbl.font = regularFont_Two;
+    _requestBookingBtn.titleLabel.font = boldFont;
+    _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
 }
 
 -(void)setUpBorderBtn

@@ -78,7 +78,9 @@
 #define kLang_Service    @"kLang_Service"
 #define kLang_Booking    @"kLang_Booking"
 #define kLang_Dealers   @"kLang_Dealers"
+#define kLang_Dealers_Title @"kLang_Dealers_Title"
 #define kLang_Collection  @"kLang_Collection"
+#define kLang_Collection_Title @"kLang_Collection_Title"
 #define kLang_SOS         @"kLang_SOS"
 
 #define kLang_Emegency_Serivce  @"kLang_Emegency_Serivce"
@@ -88,6 +90,7 @@
 #define kLang_Back          @"kLang_Back"
 
 #define kLang_EditProfile   @"kLang_EditProfile"
+#define kLang_EditProfile_Title   @"kLang_EditProfile_Title"
 #define kLang_BookingHistory @"kLang_BookingHistory"
 #define kLang_SelectVehicle  @"kLang_SelectVehicle"
 #define kLang_SelectBranch   @"kLang_SelectBranch"
@@ -143,6 +146,7 @@
 #define kLang_FavoriteBranch    @"kLang_FavoriteBranch"
 #define kLang_Save  @"kLang_Save"
 #define kLang_AddVehicle    @"kLang_AddVehicle"
+#define kLang_AddVehicle_Title    @"kLang_AddVehicle_Title"
 #define kLang_ConnectToFacebook     @"kLang_ConnectToFacebook"
 #define kLang_ConnectToTwitter      @"kLang_ConnectToTwitter"
 #define kLang_ConnectedFB           @"kLang_ConnectedFB"

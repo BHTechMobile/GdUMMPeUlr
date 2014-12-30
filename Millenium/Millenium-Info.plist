@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>MA eDrive</string>
+	<string>MINI</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIcons</key>
@@ -25,15 +25,15 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ME eDrive</string>
+	<string>MINI</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4</string>
+	<string>0.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.4</string>
+	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>
@@ -44,6 +44,11 @@
 		<string>BMW Thailand Bold.ttf</string>
 		<string>BMW Thailand Light.ttf</string>
 		<string>BMW Thailand Regular.ttf</string>
+		<string>MiniBd.ttf</string>
+		<string>MiniHd.ttf</string>
+		<string>MiniHdBd.ttf</string>
+		<string>MiniHdIcon.ttf</string>
+		<string>MiniRg.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
