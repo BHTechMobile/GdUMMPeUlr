@@ -53,7 +53,7 @@
 {
     if(selectedCollection)
     {
-        [imgHeader setImageWithURL:[NSURL URLWithString:selectedCollection.image] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
+        [imgHeader sd_setImageWithURL:[NSURL URLWithString:selectedCollection.image] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
         
         lblTitle.text=[selectedCollection.categoryName uppercaseString];
 
@@ -123,7 +123,7 @@
             firstImage=[item.arrImage objectAtIndex:0];
         }
         
-        [cell.imgView setImageWithURL:[NSURL URLWithString:firstImage] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
+        [cell.imgView sd_setImageWithURL:[NSURL URLWithString:firstImage] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
         if(![item.lang isEqualToString:[Util valueForKey:DefaultLang]] && item.translate != nil)
         {
             cell.lblProductName.text = [Validator getSafeString:item.translate[@"product_name"]];

@@ -1108,12 +1108,11 @@
                 imageDict=[Util convertJSONToObject:[Validator getSafeString:[dicTemp valueForKey:@"image_url"]]];
                 tempobj.imageUrl = [NSString stringWithFormat:@"%@%@",IMAGE_BASE_URL,[Validator getSafeString:[imageDict objectForKey:@"real_name"]]];
                 UIImageView *imgView=[[UIImageView alloc]init];
-                [imgView setImageWithURL:[NSURL URLWithString:tempobj.imageUrl] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
+                
+                [imgView sd_setImageWithURL:[NSURL URLWithString:tempobj.imageUrl] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]
+                                  completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
                     if(image) imgView.image = image;
-                    
                 }];
-                //
-
 //                
 //                videoDict = [Util convertJSONToObject:[Validator getSafeString:[dicTemp valueForKey:@"video_url"]]];
 //                NSString* videoUrl = [Validator getSafeString:[videoDict objectForKey:@"real_name"]];
@@ -1318,10 +1317,11 @@
                     NSLog(@"link img:%@",[NSString stringWithFormat:@"%@%@" ,IMAGE_BASE_URL,[Validator getSafeString:[tempImageItemDict valueForKey:@"real_name"]]]);
                     UIImageView *imgView=[[UIImageView alloc]init];
                     NSLog(@">>>>>imgImage:%@",[NSString stringWithFormat:@"%@%@" ,IMAGE_BASE_URL,[Validator getSafeString:[tempImageItemDict valueForKey:@"real_name"]]]);
-                    [imgView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@" ,IMAGE_BASE_URL,[Validator getSafeString:[tempImageItemDict valueForKey:@"real_name"]]]] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
+                    
+                    [imgView sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@" ,IMAGE_BASE_URL,[Validator getSafeString:[tempImageItemDict valueForKey:@"real_name"]]]] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
                         if(image) imgView.image = image;
-                        
                     }];
+                    
                     [imageArr addObject:[NSString stringWithFormat:@"%@%@" ,IMAGE_BASE_URL,[Validator getSafeString:[tempImageItemDict valueForKey:@"real_name"]]]];
                 }
                 
