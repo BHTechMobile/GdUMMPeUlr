@@ -127,10 +127,11 @@
                 {
                     cell.etImagesView.hidden = YES;
                     NSString* urlImgStr = [_imgURLArr objectAtIndex:0];
-                    [cell.imgView setImageWithURL:[NSURL URLWithString:urlImgStr] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType) {
-                            if(image) self.curImg = image;
-                        
-                    }];
+
+                    [cell.imgView sd_setImageWithURL:[NSURL URLWithString:urlImgStr] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]
+                                           completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+                        if(image) self.curImg = image;
+                                           }];
                 }
             }
             return cell;
@@ -342,7 +343,7 @@
         if (_curImg ==nil) {
             if (_imgURLArr.count>0) {
                 imgThumbnail = [[UIImageView alloc] init];
-                [imgThumbnail setImageWithURL:[_imgURLArr objectAtIndex:0]];
+                [imgThumbnail sd_setImageWithURL:[_imgURLArr objectAtIndex:0]];
                 _curImg = [imgThumbnail image];
             }
             
@@ -359,7 +360,7 @@
         if (_curImg ==nil) {
             if (_imgURLArr.count>0) {
                 imgThumbnail = [[UIImageView alloc] init];
-                [imgThumbnail setImageWithURL:[_imgURLArr objectAtIndex:0]];
+                [imgThumbnail sd_setImageWithURL:[_imgURLArr objectAtIndex:0]];
                 _curImg = [imgThumbnail image];
             }
             

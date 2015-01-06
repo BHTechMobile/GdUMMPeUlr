@@ -152,7 +152,7 @@
     
     NewsObj* news = [_newsArr objectAtIndex:indexPath.row];
     
-    [cell.imgView setImageWithURL:[NSURL URLWithString:news.imageUrl] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
+    [cell.imgView sd_setImageWithURL:[NSURL URLWithString:news.imageUrl] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
     
     if([[news.mediaType lowercaseString] isEqualToString:@"image"])
         cell.playImgView.hidden = YES;

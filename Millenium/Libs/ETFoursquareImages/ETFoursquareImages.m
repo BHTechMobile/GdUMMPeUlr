@@ -65,7 +65,7 @@
             UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(i * self.frame.size.width, 0, self.frame.size.width, self.frame.size.height)];
             [imageView setContentMode:UIViewContentModeScaleAspectFit];
             imageView.clipsToBounds = YES;
-            [imageView setImageWithURL:[NSURL URLWithString:[_imagesArrayURL objectAtIndex:i]] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
+            [imageView sd_setImageWithURL:[NSURL URLWithString:[_imagesArrayURL objectAtIndex:i]] placeholderImage:[UIImage imageNamed:@"placeholder_image.png"]];
             [imagesScrollView addSubview:imageView];
         }
         imagesScrollView.contentSize = CGSizeMake(_imagesArrayURL.count * self.frame.size.width, self.frame.size.height);
