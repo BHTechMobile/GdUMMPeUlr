@@ -25,7 +25,7 @@
 
 "kLang_NewsDetail" = "รายละเอียดข่าว";
 "kLang_ProductDetail"   =   "รายละเอียดสินค้า";
-"kLang_Back" = " ย้อนกลับ" ;
+"kLang_Back" = "  ย้อนกลับ" ;
 
 "kLang_EditProfile" = "แก้ไขข้อมูลส่วนตัว";
 "kLang_EditProfile_Title" = "แก้ไขข้อมูลส่วนตัว";
@@ -87,7 +87,7 @@
 "kLang_DefaultVehicle" = "เริ่มต้น ยานพาหนะ";
 "kLang_FavoriteBranch" = "โปรด สาขา";
 "kLang_Save" = "บันทึก";
-"kLang_AddVehicle" = "เพิ่ม ยานพาหนะ";
+"kLang_AddVehicle" = "  เพิ่ม ยานพาหนะ";
 "kLang_AddVehicle_Title"    =   "เพิ่ม ยานพาหนะ";
 "kLang_ConnectToFacebook" = "เชื่อมต่อ ไปที่ Facebook";
 "kLang_ConnectToTwitter" = "การเชื่อมต่อกับ Twitter";
@@ -101,7 +101,7 @@
 "kLang_MyVehicle" = "รถยนต์ของฉัน";
 "kLang_Name" = "ชื่อ";
 "kLang_LicensePlate" = "ป้ายทะเบียน";
-"kLang_RegisterVehicle" = "ลงทะเบียน ยานพาหนะ";
+"kLang_RegisterVehicle" = "ลงทะเบียน";
 
 "kLang_PleaseInputVIN" = "กรุณากรอกเลข VIN 7 หลักสุดท้ายของรถของท่าน";
 
