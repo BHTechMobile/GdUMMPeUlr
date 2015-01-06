@@ -11,7 +11,7 @@
 
 "kLang_Langugae"    = "Language";
 
-"kLang_BMWCarService" = "BMW Car Service";
+"kLang_BMWCarService" = "MA MINI";
 "kLang_News"    =   "News";
 "kLang_Services"    =   "Services";
 "kLang_Service"     =   "MINI SERVICE.";
@@ -29,7 +29,7 @@
 
 "kLang_EditProfile" =   "EDIT PROFILE";
 "kLang_EditProfile_Title" =   "EDIT PROFILE.";
-"kLang_BookingHistory"      =   "Booking History";
+"kLang_BookingHistory"      =   "BOOKING HISTORY";
 "kLang_SelectVehicle"       =   "Select Vehicle";
 "kLang_SelectBranch"        =   "Select Branch";
 "kLang_SelectDateTime"      =   "Select Date/Time";

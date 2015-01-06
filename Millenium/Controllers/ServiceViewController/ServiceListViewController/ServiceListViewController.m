@@ -182,7 +182,10 @@
         }
         [cell.editProfileBtn setTitle:SetupLanguage(kLang_EditProfile) forState:UIControlStateNormal];
         [cell.lblEditProfile setText:SetupLanguage(kLang_EditProfile )];
-                                                  
+        
+        cell.lblBookingHistiry.font = [Util customBoldFontWithSize:15];
+        cell.lblEditProfile.font = [Util customBoldFontWithSize:15];
+        
         [cell.bookingHistoryBtn setTitle:SetupLanguage(kLang_BookingHistory) forState:UIControlStateNormal];
         [cell.lblBookingHistiry setText:SetupLanguage(kLang_BookingHistory)];
         
