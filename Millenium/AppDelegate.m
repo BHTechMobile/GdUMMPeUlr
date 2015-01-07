@@ -166,7 +166,6 @@
     }];
     
     [[NSNotificationCenter defaultCenter] postNotificationName:kNotifi_UpdateCalendarBooking object:nil];
-    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -371,6 +370,10 @@
         //        self.locationManager.purpose = @"To calculate the distance to dealer";
         self.locationManager.delegate = self;
         [self.locationManager startUpdatingLocation];
+        
+        if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0")) {
+            [_locationManager requestWhenInUseAuthorization];
+        }
     }
 }
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
