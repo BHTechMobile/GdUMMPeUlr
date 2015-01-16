@@ -21,7 +21,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOS" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inx-1G-pSW">
-                            <rect key="frame" x="14" y="10" width="187" height="57"/>
+                            <rect key="frame" x="14" y="-5" width="187" height="57"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="57" id="0go-BM-ShJ"/>
                                 <constraint firstAttribute="width" constant="187" id="8C4-Du-NHe"/>
@@ -56,7 +56,7 @@
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="8TU-7h-PS1" firstAttribute="top" secondItem="inx-1G-pSW" secondAttribute="bottom" constant="13" id="5DL-1l-9cw"/>
+                        <constraint firstItem="8TU-7h-PS1" firstAttribute="top" secondItem="inx-1G-pSW" secondAttribute="bottom" constant="28" id="5DL-1l-9cw"/>
                         <constraint firstItem="kfd-aI-OQE" firstAttribute="top" secondItem="YW4-Y9-mTa" secondAttribute="top" constant="13" id="FK5-42-COw"/>
                         <constraint firstAttribute="trailing" secondItem="8TU-7h-PS1" secondAttribute="trailing" id="NdI-dz-Ln9"/>
                         <constraint firstItem="8TU-7h-PS1" firstAttribute="leading" secondItem="YW4-Y9-mTa" secondAttribute="leading" id="Pm3-6z-Wh5"/>
@@ -65,7 +65,7 @@
                         <constraint firstAttribute="bottom" secondItem="npu-nN-hkF" secondAttribute="bottom" constant="-11" id="VW1-3k-xMI"/>
                         <constraint firstItem="inx-1G-pSW" firstAttribute="leading" secondItem="YW4-Y9-mTa" secondAttribute="leading" constant="14" id="hUa-e0-PIE"/>
                         <constraint firstItem="npu-nN-hkF" firstAttribute="top" secondItem="8TU-7h-PS1" secondAttribute="bottom" constant="-6" id="mbU-wG-p5S"/>
-                        <constraint firstItem="inx-1G-pSW" firstAttribute="top" secondItem="YW4-Y9-mTa" secondAttribute="top" constant="10" id="yGo-YV-FqZ"/>
+                        <constraint firstItem="inx-1G-pSW" firstAttribute="top" secondItem="YW4-Y9-mTa" secondAttribute="top" constant="-5" id="yGo-YV-FqZ"/>
                     </constraints>
                 </view>
             </subviews>
