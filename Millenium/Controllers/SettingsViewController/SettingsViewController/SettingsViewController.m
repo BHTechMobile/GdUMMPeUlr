@@ -139,7 +139,7 @@
     if(car_id && gArrMyCar)
     {
         VehicleObj* obj = [ModelManager getVehicleById:car_id];
-        NSString* vehicleStr = [NSString stringWithFormat:@"%@ %@",obj.VINNumber,obj.vehicleModel];
+        NSString* vehicleStr = [NSString stringWithFormat:@"%@",obj.vehicleModel];
         lblDefaultVehicle.text = [self stringByRemoveMillenium:vehicleStr];
         
     }
@@ -379,7 +379,7 @@
 -(void)choosedVehicle:(VehicleObj *)vehicle
 {
     selectedVehicle = vehicle;
-    lblDefaultVehicle.text = [NSString stringWithFormat:@"%@ %@",vehicle.VINNumber,vehicle.vehicleModel];
+    lblDefaultVehicle.text = [NSString stringWithFormat:@"%@",vehicle.vehicleModel];
 }
 
 #pragma mark - DealerListVCDelegate

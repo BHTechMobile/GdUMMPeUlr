@@ -143,7 +143,7 @@
     cell.noteLbl.text = bookingHistory.note;
     VehicleObj* vehicle = [ModelManager getVehicleById:bookingHistory.car_id];
     if(vehicle)
-        cell.vehicleLbl.text =[NSString stringWithFormat:@"%@ %@", [Validator getSafeString:vehicle.VINNumber],[Validator getSafeString:vehicle.vehicleModel]];
+        cell.vehicleLbl.text =[NSString stringWithFormat:@"%@",[Validator getSafeString:vehicle.vehicleModel]];
     else
         cell.vehicleLbl.text = @"Deleted Vehicle";
     cell.branchLbl.text = [Validator getSafeString:[ModelManager getDealerById:bookingHistory.dealer_id].name];

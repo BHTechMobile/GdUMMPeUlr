@@ -21,7 +21,6 @@
     #import "LocalizationSystem.h"
     #import "CoreData+MagicalRecord.h"
     #import <CoreData/CoreData.h>
-    #import "TestFlight.h"
     #define MR_SHORTHAND
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 #endif

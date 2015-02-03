@@ -358,9 +358,6 @@
 		6CDAC17418B860EE0001CF3A /* (null) in Resources */ = {isa = PBXBuildFile; };
 		6CDAC17518B860EE0001CF3A /* (null) in Resources */ = {isa = PBXBuildFile; };
 		74D2F2801912B244002991F0 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D5321518C02B850058DB79 /* libzbar.a */; };
-		8B3ED8B1198B3E9A0072123C /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3ED8AB198B3E9A0072123C /* libTestFlight.a */; };
-		8B3ED8B2198B3E9A0072123C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B3ED8AC198B3E9A0072123C /* README.md */; };
-		8B3ED8B3198B3E9A0072123C /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B3ED8AD198B3E9A0072123C /* release_notes.md */; };
 		8B3ED8B5198B3ED10072123C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3ED8B4198B3ED10072123C /* AdSupport.framework */; };
 		8B4063221936DDEB00A2DA3B /* information-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4063211936DDEB00A2DA3B /* information-2.png */; };
 		8B4063241936E13500A2DA3B /* info-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4063231936E13500A2DA3B /* info-25.png */; };
@@ -902,12 +899,6 @@
 		6CA4588F18C5CBC8006A2FA3 /* DealerDetail2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DealerDetail2ViewController.h; path = DealerDetailViewController/DealerDetail2ViewController.h; sourceTree = "<group>"; };
 		6CA4589018C5CBC8006A2FA3 /* DealerDetail2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DealerDetail2ViewController.m; path = DealerDetailViewController/DealerDetail2ViewController.m; sourceTree = "<group>"; };
 		6CA4589118C5CBC8006A2FA3 /* DealerDetail2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DealerDetail2ViewController.xib; path = DealerDetailViewController/DealerDetail2ViewController.xib; sourceTree = "<group>"; };
-		8B3ED8AB198B3E9A0072123C /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		8B3ED8AC198B3E9A0072123C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		8B3ED8AD198B3E9A0072123C /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		8B3ED8AE198B3E9A0072123C /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		8B3ED8AF198B3E9A0072123C /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		8B3ED8B0198B3E9A0072123C /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		8B3ED8B4198B3ED10072123C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		8B4063211936DDEB00A2DA3B /* information-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information-2.png"; sourceTree = "<group>"; };
 		8B4063231936E13500A2DA3B /* info-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-25.png"; sourceTree = "<group>"; };
@@ -973,7 +964,6 @@
 				6C31653B18BC808E00A77E86 /* CoreAudio.framework in Frameworks */,
 				6C31653D18BC80C000A77E86 /* CoreVideo.framework in Frameworks */,
 				6657F80D18B60C23009F074D /* MessageUI.framework in Frameworks */,
-				8B3ED8B1198B3E9A0072123C /* libTestFlight.a in Frameworks */,
 				6657F80B18B60C1B009F074D /* Social.framework in Frameworks */,
 				6657F7EB18B5F548009F074D /* QuartzCore.framework in Frameworks */,
 				6657F7C818B5CA57009F074D /* MapKit.framework in Frameworks */,
@@ -1455,7 +1445,6 @@
 		6672B3C918B4AFAB00B01BC3 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				8B3ED8AA198B3E9A0072123C /* TestFlightSDK2.0.2 */,
 				66DA448418C5B62C00BAE3BD /* ETFoursquareImages */,
 				66CBD85E18C48325008368BE /* PPNetworkCheck */,
 				66CBD85418C47D45008368BE /* MSSlideNavigationController */,
@@ -2380,19 +2369,6 @@
 			path = dealer;
 			sourceTree = "<group>";
 		};
-		8B3ED8AA198B3E9A0072123C /* TestFlightSDK2.0.2 */ = {
-			isa = PBXGroup;
-			children = (
-				8B3ED8AB198B3E9A0072123C /* libTestFlight.a */,
-				8B3ED8AC198B3E9A0072123C /* README.md */,
-				8B3ED8AD198B3E9A0072123C /* release_notes.md */,
-				8B3ED8AE198B3E9A0072123C /* TestFlight+AsyncLogging.h */,
-				8B3ED8AF198B3E9A0072123C /* TestFlight+ManualSessions.h */,
-				8B3ED8B0198B3E9A0072123C /* TestFlight.h */,
-			);
-			path = TestFlightSDK2.0.2;
-			sourceTree = "<group>";
-		};
 		8B6027861958138200F2C296 /* New UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -2460,7 +2436,7 @@
 				ORGANIZATIONNAME = Fruity;
 				TargetAttributes = {
 					6672B3A718B4AEA900B01BC3 = {
-						DevelopmentTeam = N2AZ5MXD3Y;
+						DevelopmentTeam = X8PMSFJF6Z;
 					};
 				};
 			};
@@ -2531,7 +2507,6 @@
 				66D978EA18B5BCD90001A1B7 /* ic_dealers@2x.png in Resources */,
 				6657F7DC18B5EBF5009F074D /* no_img.png in Resources */,
 				6C4562DD18BA100000F1FD8E /* btn_send@2x.png in Resources */,
-				8B3ED8B2198B3E9A0072123C /* README.md in Resources */,
 				66CF05D418BF30B700ED31C6 /* ic_profile@2x.png in Resources */,
 				66CF05C418BF004500ED31C6 /* lifeshop_cover.jpg in Resources */,
 				660504F518BAEB290061B1AD /* placeholder_addcar.png in Resources */,
@@ -2628,7 +2603,6 @@
 				8B602796195813A200F2C296 /* editProfileButton@2x.png in Resources */,
 				6C4562ED18BA100E00F1FD8E /* checkbox_tick@2x.png in Resources */,
 				6657F82418B61BFA009F074D /* 76.png in Resources */,
-				8B3ED8B3198B3E9A0072123C /* release_notes.md in Resources */,
 				6CDAC17218B860EE0001CF3A /* (null) in Resources */,
 				660504F318BAEB290061B1AD /* btn_scanQRCode.png in Resources */,
 				6C36638C18BF05BA00FAC5B6 /* ic_user@2x.png in Resources */,
@@ -2948,8 +2922,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
 				INFOPLIST_FILE = "Millenium/Millenium-Info.plist";
@@ -2959,12 +2933,12 @@
 					/Volumes/G/SVN/CxCarService/trunk/iOS/Millenium/Libs/BarcodeSDK/ZBarSDK,
 					/Users/cmc/Documents/iOS/Millenium/Libs/BarcodeSDK/ZBarSDK,
 					"$(PROJECT_DIR)/Millenium/Libs/BarcodeSDK/ZBarSDK",
-					"$(PROJECT_DIR)/Millenium/Libs/TestFlightSDK2.0.2",
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a466ddfa-e7bf-4b16-90b4-ea9e49bf4884";
+				PROVISIONING_PROFILE = "99843486-9ae4-4e5f-a94c-191c61b6e48a";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Millenium/Libs\"/**";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -2975,8 +2949,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tran Vu Viet Anh (BU79S2D2W2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
 				INFOPLIST_FILE = "Millenium/Millenium-Info.plist";
@@ -2986,12 +2960,12 @@
 					/Volumes/G/SVN/CxCarService/trunk/iOS/Millenium/Libs/BarcodeSDK/ZBarSDK,
 					/Users/cmc/Documents/iOS/Millenium/Libs/BarcodeSDK/ZBarSDK,
 					"$(PROJECT_DIR)/Millenium/Libs/BarcodeSDK/ZBarSDK",
-					"$(PROJECT_DIR)/Millenium/Libs/TestFlightSDK2.0.2",
+					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a466ddfa-e7bf-4b16-90b4-ea9e49bf4884";
+				PROVISIONING_PROFILE = "99843486-9ae4-4e5f-a94c-191c61b6e48a";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Millenium/Libs\"/**";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;

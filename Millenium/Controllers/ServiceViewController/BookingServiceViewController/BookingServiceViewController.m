@@ -383,7 +383,7 @@
     {
         VehicleObj* obj = [ModelManager getVehicleById:car_id];
         self.selectedVehicle = obj;
-        NSString* vehicleStr = [NSString stringWithFormat:@"%@ %@",obj.VINNumber,obj.vehicleModel];
+        NSString* vehicleStr = [NSString stringWithFormat:@"%@",obj.vehicleModel];
         _vehicleLbl.text = [self stringByRemoveMillenium:vehicleStr];
         
     }
@@ -453,7 +453,7 @@
     {
         VehicleObj* obj = [ModelManager getVehicleById:_bookingHistoryToEdit.car_id];
         self.selectedVehicle = obj;
-        NSString* vehicleStr = [NSString stringWithFormat:@"%@ %@",obj.VINNumber,obj.vehicleModel];
+        NSString* vehicleStr = [NSString stringWithFormat:@"%@",obj.vehicleModel];
         _vehicleLbl.text = [self stringByRemoveMillenium:vehicleStr];
     }
     
