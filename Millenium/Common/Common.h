@@ -12,6 +12,7 @@
 
 #define  USER_NAME                @"admin"
 #define  PASSWORD                 @"zEV3n76HLPYworOFBXPy"
+//#define  PASSWORD @"123456"
 
 
 //#define BASE_URL                  @"http://115.146.126.146/car/en/api/"
@@ -21,9 +22,12 @@
 //#define BASE_URL                  @"http://mgcmobileapp.mgc-asia.com/en/api/"
 //#define IMAGE_BASE_URL            @"http://mgcmobileapp.mgc-asia.com/"
 //#define BASE_URL @"http://alphatechnologies.net/mamini/en/api"
-#define IMAGE_BASE_URL @"http://alphatechnologies.net/mamini/"
 
-#define BASE_URL @"http://117.7.238.88:8240/bmw/en/api"
+#define IMAGE_BASE_URL @"http://minimobileapp.mgc-asia.com/"
+#define BASE_URL @"http://minimobileapp.mgc-asia.com/en/api/"
+
+//#define BASE_URL @"http://117.7.238.88:8240/bmw/en/api/"
+
 
 #define URL_GET_INIT              @"getInit"
 #define URL_LOGIN                 @"login"
