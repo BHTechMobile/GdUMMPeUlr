@@ -110,13 +110,13 @@
 }
 
 - (BOOL)shouldAutorotate {
-    return YES;
+    return NO;
 }
 
 - (NSUInteger)supportedInterfaceOrientations
 {
     //decide number of origination to supported by Viewcontroller.
-    return UIInterfaceOrientationMaskAll;
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 -(void)changeLang
@@ -184,6 +184,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.row == 0) {
+        [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    }
     NewsDetailViewController* newsDetailVC = [[NewsDetailViewController alloc] initWithNibName:@"NewsDetailViewController" bundle:nil];
     
     NewsObj* news = [_newsArr objectAtIndex:indexPath.row];

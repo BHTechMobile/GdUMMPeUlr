@@ -87,7 +87,7 @@
 }
 
 - (BOOL)shouldAutorotate {
-    return YES;
+    return NO;
 }
 
 - (NSUInteger)supportedInterfaceOrientations
@@ -147,8 +147,9 @@
         selectIndex=((UIButton*)sender).tag;
         DebugLog(@"Click index  %d",selectIndex);
         [Util showMessage:SetupLanguage(KLang_CallEmergencyService) withTitle:SetupLanguage(kLang_BMWCarService) cancelButtonTitle:SetupLanguage(kLang_NO) otherButtonTitles:SetupLanguage(kLang_YES) delegate:self andTag:1];
-    }else
+    }else{
         [Util showMessage:SetupLanguage(KLang_CanNotMakeCall) withTitle:SetupLanguage(kLang_BMWCarService)];
+    }
     
 }
 

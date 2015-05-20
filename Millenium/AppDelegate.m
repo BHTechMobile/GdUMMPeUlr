@@ -155,6 +155,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     NSString* memberId = [Util valueForKey:KEY_MEMBER_ID];
     [ModelManager getBookingHistory:memberId success:^(NSArray *arr) {
@@ -216,7 +217,7 @@
     
     if ([[UIApplication sharedApplication] applicationState] != UIApplicationStateActive)
     {
-        DebugLog(@"PUSH NOTIFICATION IN BACK GROUND");
+        DebugLog(@"PUSH NOTIFICATION IN BACKGROUND");
         if(userInfo[@"aps"])
             [self updateBookingHistoryWithDic:userInfo[@"aps"] needUpdateScree:NO];
     }
@@ -458,6 +459,6 @@
 }
 - (NSUInteger)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationPortrait;
+    return UIInterfaceOrientationMaskPortrait;
 }
 @end

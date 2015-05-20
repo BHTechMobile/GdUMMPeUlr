@@ -55,7 +55,6 @@
 		66061D6018BB2F5B0086D765 /* DefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66061D5F18BB2F5B0086D765 /* DefaultCell.m */; };
 		66061D6218BB2F6D0086D765 /* DefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66061D6118BB2F6D0086D765 /* DefaultCell.xib */; };
 		6614105F18C705BB0002CD75 /* BookingHistoryObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 6614105E18C705BB0002CD75 /* BookingHistoryObj.m */; };
-		6618762A18C0A2DA007E8EA0 /* ic_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6618762818C0A2DA007E8EA0 /* ic_pin.png */; };
 		6630DF2218D0B4010044BFBD /* Collection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6630DF2118D0B4010044BFBD /* Collection.m */; };
 		6630DF2518D0B4020044BFBD /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 6630DF2418D0B4020044BFBD /* Product.m */; };
 		6657F7C018B5C531009F074D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6657F7BF18B5C531009F074D /* MobileCoreServices.framework */; };
@@ -2432,7 +2431,7 @@
 		6672B3A018B4AEA900B01BC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Fruity;
 				TargetAttributes = {
 					6672B3A718B4AEA900B01BC3 = {
@@ -2612,7 +2611,6 @@
 				66D7487D18C83AAD007B13D6 /* BMW Thailand Bold.ttf in Resources */,
 				6CDAC14D18B84E2C0001CF3A /* (null) in Resources */,
 				6CDAC13518B84E180001CF3A /* (null) in Resources */,
-				6618762A18C0A2DA007E8EA0 /* ic_pin.png in Resources */,
 				6603FA9C18C322D000B6A79E /* BookingSubAlertView.xib in Resources */,
 				66D5321318C02AF60058DB79 /* Default.png in Resources */,
 				6CDAC13618B84E180001CF3A /* (null) in Resources */,
@@ -2921,8 +2919,7 @@
 		6672B3C618B4AEA900B01BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
@@ -2935,12 +2932,12 @@
 					"$(PROJECT_DIR)/Millenium/Libs/BarcodeSDK/ZBarSDK",
 					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "99843486-9ae4-4e5f-a94c-191c61b6e48a";
+				PROVISIONING_PROFILE = "ad9f618b-ddaf-4cad-be85-bd2a6a1754bc";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Millenium/Libs\"/**";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2948,9 +2945,8 @@
 		6672B3C718B4AEA900B01BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: I 24 COMPANY LIMITED (X8PMSFJF6Z)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
 				INFOPLIST_FILE = "Millenium/Millenium-Info.plist";
@@ -2962,12 +2958,12 @@
 					"$(PROJECT_DIR)/Millenium/Libs/BarcodeSDK/ZBarSDK",
 					"$(PROJECT_DIR)/TestFlightSDK3.0.2",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "99843486-9ae4-4e5f-a94c-191c61b6e48a";
+				PROVISIONING_PROFILE = "47973986-cfb7-4ab5-aa79-59c58a8dd616";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Millenium/Libs\"/**";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
