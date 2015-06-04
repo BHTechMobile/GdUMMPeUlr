@@ -45,7 +45,7 @@
 // [tblDealer reloadData];
 }
 -(void)viewWillAppear:(BOOL)animated{
-    [tblDealer reloadData];
+    [super viewWillAppear:animated];
 }
 -(void)viewWillDisappear:(BOOL)animated{
    // [tblDealer reloadData];
@@ -82,6 +82,8 @@
     [self changeLang];
 
     _backBtn.titleLabel.font = [Util customBoldFontWithSize:15];
+    [self loadData];
+
 }
 
 -(void)changeLang

@@ -50,7 +50,7 @@
         //images
         
         imagesScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.width)];
-        imagesScrollView.backgroundColor = [UIColor whiteColor];
+        imagesScrollView.backgroundColor = [UIColor blackColor];
         imagesScrollView.canCancelContentTouches = NO;
         imagesScrollView.showsHorizontalScrollIndicator = NO;
         imagesScrollView.showsVerticalScrollIndicator = NO;

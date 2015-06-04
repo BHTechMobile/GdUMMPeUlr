@@ -87,14 +87,6 @@
 		6657F80D18B60C23009F074D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6657F80C18B60C23009F074D /* MessageUI.framework */; };
 		6657F81418B6149F009F074D /* ic_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81218B6149F009F074D /* ic_settings.png */; };
 		6657F81518B6149F009F074D /* ic_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81318B6149F009F074D /* ic_settings@2x.png */; };
-		6657F81E18B61BFA009F074D /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81718B61BF9009F074D /* 114.png */; };
-		6657F81F18B61BFA009F074D /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81818B61BF9009F074D /* 120.png */; };
-		6657F82018B61BFA009F074D /* 144.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81918B61BF9009F074D /* 144.png */; };
-		6657F82118B61BFA009F074D /* 152.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81A18B61BF9009F074D /* 152.png */; };
-		6657F82218B61BFA009F074D /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81B18B61BF9009F074D /* 57.png */; };
-		6657F82318B61BFA009F074D /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81C18B61BF9009F074D /* 72.png */; };
-		6657F82418B61BFA009F074D /* 76.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F81D18B61BFA009F074D /* 76.png */; };
-		6657F82718B61C88009F074D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6657F82618B61C88009F074D /* Default-568h@2x.png */; };
 		6672B3AC18B4AEA900B01BC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6672B3AB18B4AEA900B01BC3 /* UIKit.framework */; };
 		6672B3AE18B4AEA900B01BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6672B3AD18B4AEA900B01BC3 /* Foundation.framework */; };
 		6672B3B018B4AEA900B01BC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6672B3AF18B4AEA900B01BC3 /* CoreGraphics.framework */; };
@@ -144,8 +136,6 @@
 		66D092B718D318CA00547E2F /* bg_selectbox_non_drop_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D092B618D318CA00547E2F /* bg_selectbox_non_drop_down.png */; };
 		66D4FE9E18BDAA4100A2E026 /* ic_arrow@2x_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D4FE9C18BDAA4100A2E026 /* ic_arrow@2x_down.png */; };
 		66D4FE9F18BDAA4100A2E026 /* ic_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D4FE9D18BDAA4100A2E026 /* ic_arrow_down.png */; };
-		66D5321318C02AF60058DB79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D5321118C02AF60058DB79 /* Default.png */; };
-		66D5321418C02AF60058DB79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66D5321218C02AF60058DB79 /* Default@2x.png */; };
 		66D5321F18C07C6D0058DB79 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D5321D18C07C6D0058DB79 /* SplashViewController.m */; };
 		66D5322018C07C6D0058DB79 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D5321E18C07C6D0058DB79 /* SplashViewController.xib */; };
 		66D5322718C099F00058DB79 /* NSString+TextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D5322618C099F00058DB79 /* NSString+TextSize.m */; };
@@ -395,6 +385,7 @@
 		9F9557331A4EB36400B4A94C /* MiniRg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F95572E1A4EB36400B4A94C /* MiniRg.ttf */; };
 		9F9557361A4EC64E00B4A94C /* arrow_ngc.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9557341A4EC64E00B4A94C /* arrow_ngc.png */; };
 		9F9557371A4EC64E00B4A94C /* arrow_ngc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9557351A4EC64E00B4A94C /* arrow_ngc@2x.png */; };
+		DD34F2B01B2047B400FA5BDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD34F2AF1B2047B400FA5BDF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -529,14 +520,6 @@
 		6657F80C18B60C23009F074D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		6657F81218B6149F009F074D /* ic_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_settings.png; sourceTree = "<group>"; };
 		6657F81318B6149F009F074D /* ic_settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_settings@2x.png"; sourceTree = "<group>"; };
-		6657F81718B61BF9009F074D /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
-		6657F81818B61BF9009F074D /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
-		6657F81918B61BF9009F074D /* 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144.png; sourceTree = "<group>"; };
-		6657F81A18B61BF9009F074D /* 152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152.png; sourceTree = "<group>"; };
-		6657F81B18B61BF9009F074D /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
-		6657F81C18B61BF9009F074D /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
-		6657F81D18B61BFA009F074D /* 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76.png; sourceTree = "<group>"; };
-		6657F82618B61C88009F074D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6672B3A818B4AEA900B01BC3 /* Millenium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millenium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6672B3AB18B4AEA900B01BC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6672B3AD18B4AEA900B01BC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -607,8 +590,6 @@
 		66D092B618D318CA00547E2F /* bg_selectbox_non_drop_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_selectbox_non_drop_down.png; sourceTree = "<group>"; };
 		66D4FE9C18BDAA4100A2E026 /* ic_arrow@2x_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_arrow@2x_down.png"; sourceTree = "<group>"; };
 		66D4FE9D18BDAA4100A2E026 /* ic_arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_arrow_down.png; sourceTree = "<group>"; };
-		66D5321118C02AF60058DB79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		66D5321218C02AF60058DB79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		66D5321518C02B850058DB79 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
 		66D5321C18C07C6D0058DB79 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
 		66D5321D18C07C6D0058DB79 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
@@ -940,6 +921,7 @@
 		9F95572E1A4EB36400B4A94C /* MiniRg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniRg.ttf; sourceTree = "<group>"; };
 		9F9557341A4EC64E00B4A94C /* arrow_ngc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_ngc.png; sourceTree = "<group>"; };
 		9F9557351A4EC64E00B4A94C /* arrow_ngc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_ngc@2x.png"; sourceTree = "<group>"; };
+		DD34F2AF1B2047B400FA5BDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1319,30 +1301,6 @@
 			path = BaseViewController;
 			sourceTree = "<group>";
 		};
-		6657F81618B61BF9009F074D /* icon */ = {
-			isa = PBXGroup;
-			children = (
-				6657F81718B61BF9009F074D /* 114.png */,
-				6657F81818B61BF9009F074D /* 120.png */,
-				6657F81918B61BF9009F074D /* 144.png */,
-				6657F81A18B61BF9009F074D /* 152.png */,
-				6657F81B18B61BF9009F074D /* 57.png */,
-				6657F81C18B61BF9009F074D /* 72.png */,
-				6657F81D18B61BFA009F074D /* 76.png */,
-			);
-			path = icon;
-			sourceTree = "<group>";
-		};
-		6657F82518B61C88009F074D /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				66D5321118C02AF60058DB79 /* Default.png */,
-				66D5321218C02AF60058DB79 /* Default@2x.png */,
-				6657F82618B61C88009F074D /* Default-568h@2x.png */,
-			);
-			path = Splash;
-			sourceTree = "<group>";
-		};
 		6672B39F18B4AEA900B01BC3 = {
 			isa = PBXGroup;
 			children = (
@@ -1407,6 +1365,7 @@
 				6672B3C818B4AEEC00B01BC3 /* Controllers */,
 				6672B3C918B4AFAB00B01BC3 /* Libs */,
 				6672B3CA18B4AFB400B01BC3 /* Resource */,
+				DD34F2AF1B2047B400FA5BDF /* Images.xcassets */,
 				6672B3B218B4AEA900B01BC3 /* Supporting Files */,
 			);
 			path = Millenium;
@@ -1415,8 +1374,6 @@
 		6672B3B218B4AEA900B01BC3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6657F82518B61C88009F074D /* Splash */,
-				6657F81618B61BF9009F074D /* icon */,
 				6672B3B318B4AEA900B01BC3 /* Millenium-Info.plist */,
 				6672B3B418B4AEA900B01BC3 /* InfoPlist.strings */,
 				6672B3B718B4AEA900B01BC3 /* main.m */,
@@ -2478,7 +2435,6 @@
 				6C64FFAC18C057D8000E6F7D /* ic_pin.png in Resources */,
 				8B602794195813A200F2C296 /* callServiceButton@2x.png in Resources */,
 				8B602791195813A200F2C296 /* bookOnlineButton.png in Resources */,
-				6657F82718B61C88009F074D /* Default-568h@2x.png in Resources */,
 				6C4562E118BA100000F1FD8E /* textfield@2x.png in Resources */,
 				6C4562EF18BA100E00F1FD8E /* checkbox@2x.png in Resources */,
 				8B602793195813A200F2C296 /* callServiceButton.png in Resources */,
@@ -2499,7 +2455,6 @@
 				6657F7FB18B5F8B9009F074D /* facebook@2x.png in Resources */,
 				66CF05E518BF53C000ED31C6 /* ic_dealers_select.png in Resources */,
 				9F9557361A4EC64E00B4A94C /* arrow_ngc.png in Resources */,
-				6657F82018B61BFA009F074D /* 144.png in Resources */,
 				6CDAC16418B85CB80001CF3A /* (null) in Resources */,
 				66EA0A1118D6A05200816DF0 /* BMWGlobal_Pro_reg.ttf in Resources */,
 				6CDAC17418B860EE0001CF3A /* (null) in Resources */,
@@ -2562,7 +2517,6 @@
 				6C4562FE18BA103C00F1FD8E /* MessageCell.xib in Resources */,
 				6C31653718BC7EC200A77E86 /* zbar-help.html in Resources */,
 				66D978E818B5BCD90001A1B7 /* ic_collections@2x.png in Resources */,
-				6657F81E18B61BFA009F074D /* 114.png in Resources */,
 				6C4562EB18BA100E00F1FD8E /* btn_submit@2x.png in Resources */,
 				6657F80518B5FA78009F074D /* TextViewCell.xib in Resources */,
 				8B86C65719343B33005BCE54 /* bg_btn_back1.png in Resources */,
@@ -2588,7 +2542,6 @@
 				66CF05BA18BEDFD000ED31C6 /* bg_btn_gray.png in Resources */,
 				66EA0A1018D6A05200816DF0 /* BMWGlobal_Pro_light.ttf in Resources */,
 				66D978CB18B59EDB0001A1B7 /* SOSViewController.xib in Resources */,
-				6657F82318B61BFA009F074D /* 72.png in Resources */,
 				6C47248A18BC44A800EFBDF4 /* disclosure@2x.png in Resources */,
 				6CDAC17118B860EE0001CF3A /* (null) in Resources */,
 				6C47248B18BC44A800EFBDF4 /* placeholder_addcar.png in Resources */,
@@ -2601,7 +2554,6 @@
 				66D4FE9E18BDAA4100A2E026 /* ic_arrow@2x_down.png in Resources */,
 				8B602796195813A200F2C296 /* editProfileButton@2x.png in Resources */,
 				6C4562ED18BA100E00F1FD8E /* checkbox_tick@2x.png in Resources */,
-				6657F82418B61BFA009F074D /* 76.png in Resources */,
 				6CDAC17218B860EE0001CF3A /* (null) in Resources */,
 				660504F318BAEB290061B1AD /* btn_scanQRCode.png in Resources */,
 				6C36638C18BF05BA00FAC5B6 /* ic_user@2x.png in Resources */,
@@ -2612,11 +2564,11 @@
 				6CDAC14D18B84E2C0001CF3A /* (null) in Resources */,
 				6CDAC13518B84E180001CF3A /* (null) in Resources */,
 				6603FA9C18C322D000B6A79E /* BookingSubAlertView.xib in Resources */,
-				66D5321318C02AF60058DB79 /* Default.png in Resources */,
 				6CDAC13618B84E180001CF3A /* (null) in Resources */,
 				66CF05BB18BEDFD000ED31C6 /* bg_selectbox.png in Resources */,
 				6C4562F118BA100E00F1FD8E /* mood_sos@2x.png in Resources */,
 				6C31655418BC97D300A77E86 /* InsuranceCell.xib in Resources */,
+				DD34F2B01B2047B400FA5BDF /* Images.xcassets in Resources */,
 				8B40634219372F5D00A2DA3B /* arrow@2x.png in Resources */,
 				66CF05E918BF53C000ED31C6 /* ic_news.png in Resources */,
 				66D978BA18B59CB60001A1B7 /* ServiceListViewController.xib in Resources */,
@@ -2626,7 +2578,6 @@
 				6CDAC16518B85CB80001CF3A /* (null) in Resources */,
 				8B4063241936E13500A2DA3B /* info-25.png in Resources */,
 				66D978EE18B5BCD90001A1B7 /* ic_services@2x.png in Resources */,
-				6657F82218B61BFA009F074D /* 57.png in Resources */,
 				6657F7FC18B5F8B9009F074D /* mail.png in Resources */,
 				66CF05E318BF53C000ED31C6 /* ic_collections_select.png in Resources */,
 				6CDAC12E18B84E180001CF3A /* (null) in Resources */,
@@ -2636,14 +2587,12 @@
 				6C4562EE18BA100E00F1FD8E /* checkbox.png in Resources */,
 				660504F618BAEB290061B1AD /* placeholder_addcar@2x.png in Resources */,
 				9F9557331A4EB36400B4A94C /* MiniRg.ttf in Resources */,
-				6657F82118B61BFA009F074D /* 152.png in Resources */,
 				6657F7ED18B5F75F009F074D /* no_img_big.png in Resources */,
 				6CDAC12F18B84E180001CF3A /* (null) in Resources */,
 				66CF05C018BEFCEF00ED31C6 /* back_bg.png in Resources */,
 				6CA4589318C5CBC8006A2FA3 /* DealerDetail2ViewController.xib in Resources */,
 				6CDAC17018B860EE0001CF3A /* (null) in Resources */,
 				6CDAC13218B84E180001CF3A /* (null) in Resources */,
-				66D5321418C02AF60058DB79 /* Default@2x.png in Resources */,
 				66E17A0118B76ED40022BA0D /* CollectionListCell.xib in Resources */,
 				66CF05D318BF30B700ED31C6 /* ic_profile.png in Resources */,
 				6657F7FD18B5F8B9009F074D /* mail@2x.png in Resources */,
@@ -2662,7 +2611,6 @@
 				6CBAC16618B75A3800453851 /* (null) in Resources */,
 				66E179FB18B751D70022BA0D /* CollecitonCategoryViewController.xib in Resources */,
 				6C31653618BC7EC200A77E86 /* zbar-back.png in Resources */,
-				6657F81F18B61BFA009F074D /* 120.png in Resources */,
 				6C47248918BC44A800EFBDF4 /* disclosure.png in Resources */,
 				8B60279E1958148800F2C296 /* callSOS@2x.png in Resources */,
 				6C31653818BC7EC200A77E86 /* zbar-helpicons.png in Resources */,
@@ -2919,12 +2867,14 @@
 		6672B3C618B4AEA900B01BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thanakrit Na-Rattanchinda (SD226K8U3A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
 				INFOPLIST_FILE = "Millenium/Millenium-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Volumes/G/SVN/CxCarService/trunk/iOS/Millenium/Libs/BarcodeSDK/ZBarSDK,
@@ -2945,12 +2895,14 @@
 		6672B3C718B4AEA900B01BC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: I 24 COMPANY LIMITED (X8PMSFJF6Z)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Millenium/Millenium-Prefix.pch";
 				INFOPLIST_FILE = "Millenium/Millenium-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Volumes/G/SVN/CxCarService/trunk/iOS/Millenium/Libs/BarcodeSDK/ZBarSDK,
@@ -2961,7 +2913,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "47973986-cfb7-4ab5-aa79-59c58a8dd616";
+				PROVISIONING_PROFILE = "5880da62-f0a6-48bc-a08e-762c6c3830d3";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Millenium/Libs\"/**";
 				VALID_ARCHS = "armv7 armv64";
 				WRAPPER_EXTENSION = app;

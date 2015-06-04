@@ -1,7 +1,8 @@
 <?php
 
 // Put your device token here (without spaces):
-$deviceToken = 'f18b6d73ebb0fca933d1c887525eb50724239b0d3ac8444c7a5842024f75c0e9';
+$deviceToken = 'f18b6d73ebb0fca933d1c887525eb50724239b0d3ac8444c7a5842024f75c0e9'; //nghia
+//$deviceToken = '632e9609e8c42d34308ab1c9f9c0aa8fec2acf300b0abc378d2020f2794d191d';// mr duong
 
 // Put your private key's passphrase here:
 $passphrase = '123456';
