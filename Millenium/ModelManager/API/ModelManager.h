@@ -46,7 +46,7 @@
 +(void)getCollection:(void (^)(NSArray*))success
              failure:(void (^)(NSError *))failure;
 
-+(void)getProductByCollectionId:(NSString*)collectionId start:(int)start limit:(int)limit andSucess:(void (^)(NSMutableArray*))success
++(void)getProductByCollectionId:(NSString*)collectionId start:(NSInteger)start limit:(NSInteger)limit andSucess:(void (^)(NSMutableArray*))success
                         failure:(void (^)(NSError *))failure;
 
 +(void)getNewsWithStart:(int)start limit:(int)limit andSucess:(void (^)(NSArray*))success

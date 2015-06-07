@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -14,10 +15,13 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DmV-9G-LQo">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmV-9G-LQo">
                         <rect key="frame" x="50" y="20" width="57" height="61"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="61" id="2T1-Ta-e52"/>
+                            <constraint firstAttribute="width" constant="57" id="g5C-ou-Qo9"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                         <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <state key="normal" title="Edit Profile" backgroundImage="bg_btn_blue.png">
@@ -28,10 +32,13 @@
                             <action selector="goProfile:" destination="7Ao-AZ-s7z" eventType="touchUpInside" id="JRP-Jm-au0"/>
                         </connections>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2V7-I6-unE">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2V7-I6-unE">
                         <rect key="frame" x="211" y="20" width="59" height="61"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="59" id="3s7-Xl-SWK"/>
+                            <constraint firstAttribute="height" constant="61" id="f5J-og-La4"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                         <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <state key="normal" title="Booking History" backgroundImage="bg_btn_blue.png">
@@ -42,37 +49,63 @@
                             <action selector="goBookingHistory:" destination="7Ao-AZ-s7z" eventType="touchUpInside" id="brz-pI-nQx"/>
                         </connections>
                     </button>
-                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="editProfileButton.png" id="yje-bB-9Sk">
+                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="editProfileButton.png" translatesAutoresizingMaskIntoConstraints="NO" id="yje-bB-9Sk">
                         <rect key="frame" x="20" y="4" width="116" height="112"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="112" id="4om-5k-6Tg"/>
+                            <constraint firstAttribute="width" constant="116" id="Rnv-ej-7g1"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="hVY-yo-fLO" appends="YES" id="Bx6-Yp-Kia"/>
                         </connections>
                     </imageView>
-                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookingHistoryButton.png" id="gc2-VK-14E">
+                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookingHistoryButton.png" translatesAutoresizingMaskIntoConstraints="NO" id="gc2-VK-14E">
                         <rect key="frame" x="174" y="4" width="116" height="112"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="116" id="4fU-Uo-VeE"/>
+                            <constraint firstAttribute="height" constant="112" id="qOX-92-Dpl"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="hFS-zh-thL" appends="YES" id="HQZ-l4-M6B"/>
                         </connections>
                     </imageView>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oa0-VE-AcN">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa0-VE-AcN">
                         <rect key="frame" x="20" y="89" width="116" height="27"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="5yW-Fe-TbA"/>
+                            <constraint firstAttribute="width" constant="116" id="gI2-zw-ZgB"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OcY-nH-EpK">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcY-nH-EpK">
                         <rect key="frame" x="156" y="89" width="151" height="27"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="151" id="T1v-ll-ezx"/>
+                            <constraint firstAttribute="height" constant="27" id="VW2-uJ-fql"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="DmV-9G-LQo" firstAttribute="leading" secondItem="pcT-0z-kS5" secondAttribute="leadingMargin" constant="42" id="6EC-id-whK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="OcY-nH-EpK" secondAttribute="trailing" constant="5" id="6b9-K3-ohs"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gc2-VK-14E" secondAttribute="trailing" constant="22" id="K2q-tb-9NL"/>
+                    <constraint firstItem="yje-bB-9Sk" firstAttribute="top" secondItem="pcT-0z-kS5" secondAttribute="topMargin" constant="-4" id="Qwx-Ft-ZYm"/>
+                    <constraint firstItem="oa0-VE-AcN" firstAttribute="leading" secondItem="pcT-0z-kS5" secondAttribute="leadingMargin" constant="12" id="bOa-gF-Mxm"/>
+                    <constraint firstItem="OcY-nH-EpK" firstAttribute="top" secondItem="2V7-I6-unE" secondAttribute="bottom" constant="8" id="f6x-og-Jcw"/>
+                    <constraint firstItem="DmV-9G-LQo" firstAttribute="top" secondItem="pcT-0z-kS5" secondAttribute="topMargin" constant="12" id="fyg-2l-Acz"/>
+                    <constraint firstItem="gc2-VK-14E" firstAttribute="top" secondItem="pcT-0z-kS5" secondAttribute="topMargin" constant="-4" id="jIG-eL-Tgs"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2V7-I6-unE" secondAttribute="trailing" constant="42" id="ney-Yz-4Uv"/>
+                    <constraint firstItem="yje-bB-9Sk" firstAttribute="leading" secondItem="pcT-0z-kS5" secondAttribute="leadingMargin" constant="12" id="oIV-U5-x0N"/>
+                    <constraint firstItem="oa0-VE-AcN" firstAttribute="top" secondItem="DmV-9G-LQo" secondAttribute="bottom" constant="8" id="trL-sE-YjL"/>
+                    <constraint firstItem="2V7-I6-unE" firstAttribute="top" secondItem="pcT-0z-kS5" secondAttribute="topMargin" constant="12" id="usz-Jb-vlj"/>
+                </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <connections>
@@ -81,6 +114,7 @@
                 <outlet property="lblBookingHistiry" destination="OcY-nH-EpK" id="jQ5-SI-XX0"/>
                 <outlet property="lblEditProfile" destination="oa0-VE-AcN" id="7T1-sd-ANc"/>
             </connections>
+            <point key="canvasLocation" x="288" y="305"/>
         </tableViewCell>
         <tapGestureRecognizer id="hVY-yo-fLO">
             <connections>
@@ -98,9 +132,4 @@
         <image name="bookingHistoryButton.png" width="116" height="112"/>
         <image name="editProfileButton.png" width="116" height="112"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

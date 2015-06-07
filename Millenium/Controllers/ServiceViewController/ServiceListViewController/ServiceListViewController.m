@@ -96,7 +96,7 @@
 
 #pragma mark - TableView Delegate
 
--(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if(indexPath.row == 0)
         return 120;
@@ -138,7 +138,7 @@
 
 #pragma mark - TableView Datasource
 
--(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return _arrRootService.count+1;
 }
@@ -218,11 +218,11 @@
 #pragma mark - Service Cell Delegate
 
 -(void)serviceListCell:(ServiceListCell*)serviceCell bookOnlinePress:(UIButton *)button{
-    NSLog(@"cell at index: %d", [_tblView indexPathForCell:serviceCell].row);
+    NSLog(@"cell at index: %ld", (long)[_tblView indexPathForCell:serviceCell].row);
     
 }
 -(void)serviceListCell:(ServiceListCell *)service callServicePress:(NSString *)telephone{
-    NSLog(@"cell at index: %d", [_tblView indexPathForCell:service].row);
+    NSLog(@"cell at index: %ld", (long)[_tblView indexPathForCell:service].row);
     if([Util canDevicePlaceAPhoneCall])
     {
         [Util showMessage:SetupLanguage(KLang_SureToCall) withTitle:SetupLanguage(kLang_BMWCarService) cancelButtonTitle:SetupLanguage(kLang_NO) otherButtonTitles:SetupLanguage(kLang_YES) delegate:self andTag:1000];

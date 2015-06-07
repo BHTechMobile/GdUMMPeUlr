@@ -410,11 +410,11 @@
     [request startAsynchronous];
 }
 
-+(void)getProductByCollectionId:(NSString*)collectionId start:(int)start limit:(int)limit andSucess:(void (^)(NSMutableArray*))success
++(void)getProductByCollectionId:(NSString*)collectionId start:(NSInteger)start limit:(NSInteger)limit andSucess:(void (^)(NSMutableArray*))success
                         failure:(void (^)(NSError *))failure
 {
-    NSString* startStr = [NSString stringWithFormat:@"%d",start];
-    NSString* limitStr = [NSString stringWithFormat:@"%d",limit];
+    NSString* startStr = [NSString stringWithFormat:@"%ld",(long)start];
+    NSString* limitStr = [NSString stringWithFormat:@"%ld",(long)limit];
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@/%@/%@",BASE_URL,URL_GET_PRODUCT,collectionId,startStr,limitStr]];
     
     __block ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
