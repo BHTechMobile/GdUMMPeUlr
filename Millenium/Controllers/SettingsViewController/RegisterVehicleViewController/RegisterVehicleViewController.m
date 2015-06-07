@@ -429,26 +429,26 @@
         [picker dismissViewControllerAnimated:YES completion:nil];
     }
     else{
-        // ADD: get the decode results
-        id<NSFastEnumeration> results =
-        [info objectForKey: ZBarReaderControllerResults];
-        ZBarSymbol *symbol = nil;
-        for(symbol in results)
-            // EXAMPLE: just grab the first barcode
-            break;
-        
-        // EXAMPLE: do something useful with the barcode data
-        DebugLog(@"Scan result : %@",symbol.data);
-        
-        txtVINNumber.text=symbol.data;
-        
-        //    resultText.text = symbol.data;
-        
-        // EXAMPLE: do something useful with the barcode image
-        //    resultImage.image =
-        //    [info objectForKey: UIImagePickerControllerOriginalImage];
-        
-        // ADD: dismiss the controller (NB dismiss from the *reader*!)
+//        // ADD: get the decode results
+//        id<NSFastEnumeration> results =
+//        [info objectForKey: ZBarReaderControllerResults];
+//        ZBarSymbol *symbol = nil;
+//        for(symbol in results)
+//            // EXAMPLE: just grab the first barcode
+//            break;
+//        
+//        // EXAMPLE: do something useful with the barcode data
+//        DebugLog(@"Scan result : %@",symbol.data);
+//        
+//        txtVINNumber.text=symbol.data;
+//        
+//        //    resultText.text = symbol.data;
+//        
+//        // EXAMPLE: do something useful with the barcode image
+//        //    resultImage.image =
+//        //    [info objectForKey: UIImagePickerControllerOriginalImage];
+//        
+//        // ADD: dismiss the controller (NB dismiss from the *reader*!)
         [picker dismissViewControllerAnimated:YES completion:nil];
         
         
@@ -608,17 +608,17 @@
 -(void)openScanner{
     
     isScanningQR=true;
-    ZBarReaderViewController *reader = [ZBarReaderViewController new];
-    reader.readerDelegate = self;
-    reader.supportedOrientationsMask = ZBarOrientationMaskAll;
-    
-    ZBarImageScanner *scanner = reader.scanner;
-    // EXAMPLE: disable rarely used I2/5 to improve performance
-    [scanner setSymbology: ZBAR_I25
-                   config: ZBAR_CFG_ENABLE
-                       to: 0];
-    // present and release the controller
-    [self presentViewController:reader animated:YES completion:nil];
+//    ZBarReaderViewController *reader = [ZBarReaderViewController new];
+//    reader.readerDelegate = self;
+//    reader.supportedOrientationsMask = ZBarOrientationMaskAll;
+//    
+//    ZBarImageScanner *scanner = reader.scanner;
+//    // EXAMPLE: disable rarely used I2/5 to improve performance
+//    [scanner setSymbology: ZBAR_I25
+//                   config: ZBAR_CFG_ENABLE
+//                       to: 0];
+//    // present and release the controller
+//    [self presentViewController:reader animated:YES completion:nil];
     
 }
 

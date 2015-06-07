@@ -97,7 +97,7 @@
 
 #pragma mark - UItableView Datasource
 
--(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 4;
 }
@@ -137,7 +137,7 @@
             return cell;
         }else
         {
-            NSString* textCellIden = [NSString stringWithFormat:@"TextViewCell_%d_%d",indexPath.section,indexPath.row];
+            NSString* textCellIden = [NSString stringWithFormat:@"TextViewCell_%ld_%ld",(long)indexPath.section,(long)indexPath.row];
             TextViewCell* cell = [tableView dequeueReusableCellWithIdentifier:textCellIden];
 
                 if(cell == nil)
@@ -263,7 +263,7 @@
 
 #pragma mark - UItableView Delegate
 
--(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     switch (indexPath.row) {
         case 0://image cell

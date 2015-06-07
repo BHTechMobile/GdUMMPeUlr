@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 Fruity. All rights reserved.
 //
 
-#import "ZBarReaderViewController.h"
-#import "ZBarSDK.h"
+//#import "ZBarReaderViewController.h"
+//#import "ZBarSDK.h"
 //#import "SelectInsuranceViewController.h"
 #import "UIKeyboardViewController.h"
 #import "CustomizeTextField.h"
 #import "VehicleObj.h"
 @class BaseViewController;
 
-@interface RegisterVehicleViewController : BaseViewController <UINavigationControllerDelegate,UIImagePickerControllerDelegate,UITextFieldDelegate,UIActionSheetDelegate,ZBarReaderDelegate,UIKeyboardViewControllerDelegate>
+@interface RegisterVehicleViewController : BaseViewController <UINavigationControllerDelegate,UIImagePickerControllerDelegate,UITextFieldDelegate,UIActionSheetDelegate,UIKeyboardViewControllerDelegate>
 {
     UIKeyboardViewController *keyBoardController;
     

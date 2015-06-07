@@ -104,7 +104,7 @@
 
 #pragma mark - UITableView Datasource
 
--(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [gArrMyCar count];
 }
@@ -167,7 +167,7 @@
 
 #pragma mark - UITableView Delegate
 
--(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 99;
 }

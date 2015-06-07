@@ -114,12 +114,12 @@
 
 #pragma mark - UITableView Datasource
 
--(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return gArrAllBookingHistory.count;
 }
 
--(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     BookingHistoryObj* bookingHistory = [gArrAllBookingHistory objectAtIndex:indexPath.row];
     NSString* note = bookingHistory.note;
@@ -161,7 +161,7 @@
           NSString *year=[dateArray objectAtIndex:0];
           NSInteger buddhistYear = [year integerValue] + 543;
           
-          NSString * buddhistDate = [NSString stringWithFormat:@"%d-%@-%@", buddhistYear, [dateArray objectAtIndex:1], [dateArray objectAtIndex:2]];
+          NSString * buddhistDate = [NSString stringWithFormat:@"%ld-%@-%@", (long)buddhistYear, [dateArray objectAtIndex:1], [dateArray objectAtIndex:2]];
           [_df setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
           [_shortDf setDateFormat:@"dd/MM/yy, HH:mm"];
           NSDate* bookedBuddhistDate = [_df dateFromString:buddhistDate];
@@ -185,7 +185,7 @@
         NSString *year=[dateArray objectAtIndex:0];
         NSInteger buddhistYear = [year integerValue] + 543;
         
-        NSString * buddhistDate = [NSString stringWithFormat:@"%d-%@-%@", buddhistYear, [dateArray objectAtIndex:1], [dateArray objectAtIndex:2]];
+        NSString * buddhistDate = [NSString stringWithFormat:@"%ld-%@-%@", (long)buddhistYear, [dateArray objectAtIndex:1], [dateArray objectAtIndex:2]];
         [_shortDf setDateFormat:@"dd/MM/yy, HH:mm"];
         NSDate* bookedBuddhistDate = [_df dateFromString:buddhistDate];
         cell._lbSubmitedTime.text=[_shortDf stringFromDate:bookedBuddhistDate];
